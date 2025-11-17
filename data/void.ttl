@@ -1,0 +1,32 @@
+PREFIX void:   <http://rdfs.org/ns/void#>
+PREFIX dcterms:<http://purl.org/dc/terms/>
+PREFIX foaf:   <http://xmlns.com/foaf/0.1/>
+PREFIX rdfs:   <http://www.w3.org/2000/01/rdf-schema#>
+PREFIX ex:     <http://example.com/>
+
+ex:MostExpensiveFootballers a void:Dataset ;
+  	dcterms:title       "Most Expensive Footballers" ;
+  	dcterms:description "The Top 500 Most Expensive Footballers In 2021" ;
+	dcterms:created "2025-11-16"^^xsd:date ;
+  	dcterms:contributor ex:groupe5 ;
+  	dcterms:source      <https://www.kaggle.com/datasets/sanjeetsinghnaik/most-expensive-footballers-2021> ;
+  	void:triples        "8839"^^xsd:int ;
+  	void:entities       "650"^^xsd:int .
+
+ex:groupe5 a foaf:Organization ;
+  	rdfs:label  "Nantes Universite" ;
+  	foaf:member :Khalil_Mhedhbi ;
+  	foaf:member :Yanis_Dabin ;
+  	foaf:member :Ilef_Mhabrech .
+
+ex:Ilef_Mhabrech a foaf:Person ;
+  	foaf:name "Ilef Mhabrech" ;
+  	foaf:mbox <mailto:ilef.mhabrech@etu.univ-nantes.fr> .
+
+ex:Khalil_Mhedhbi a foaf:Person ;
+ 	foaf:name "Khalil Mhedhbi" ;
+  	foaf:mbox <mailto:khalil.mhedhbi@etu.univ-nantes.fr> .
+
+ex:Yanis_Dabin a foaf:Person ;
+  	foaf:name "Yanis Dabin" ;
+  	foaf:mbox <mailto:yanis.dabin@etu.univ-nantes.fr> .
