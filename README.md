@@ -1,7 +1,5 @@
-# Projet Dana – Graphe RDF sur les footballeurs
+# Projet Dana – Les footballeurs les plus chers de 2021
 
-Ce dépôt contient les **données** et les **requêtes SPARQL** utilisées dans le cadre du projet Dana.  
-L’objectif est de transformer un jeu de données tabulaire (CSV) sur des footballeurs en **graphe RDF**, puis de l’interroger via **Apache Jena Fuseki**.
 
 ---
 
@@ -25,10 +23,8 @@ L’objectif est de transformer un jeu de données tabulaire (CSV) sur des footb
 │   ├── currencies.ttl
 │   └── world_population_objects_v2.ttl           
 │
-└── README.md          # Fichier de documentation (ce fichier)
+└── README.md          
 ```
-
-> Les noms exacts des fichiers peuvent varier, mais la structure générale reste la même.
 
 ---
 
@@ -36,7 +32,7 @@ L’objectif est de transformer un jeu de données tabulaire (CSV) sur des footb
 
 - **`data/`**
   - Contient le **CSV d’origine** pour le projet.
-  - Contient un fichier **RDF/Turtle (`.ttl`, `.rdf`)** générés à partir du CSV.
+  - Contient un fichier **Turtle (`.ttl`)** générés à partir du CSV.
 
 - **`queries/`**
   - Contient les **requêtes SPARQL** créees.
@@ -61,11 +57,6 @@ cd Projet-Dana-Groupe-5
 
 1. **Lancer le serveur Fuseki**
 
-   ```bash
-   fuseki-server
-   ```
-   Par défaut, l’interface web est disponible sur :  
-   `http://localhost:3030`
 
 2. **Créer un dataset**
 
