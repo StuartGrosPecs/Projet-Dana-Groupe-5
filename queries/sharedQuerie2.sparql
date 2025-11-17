@@ -1,0 +1,44 @@
+PREFIX dbr: <http://dbpedia.org/resource/>
+PREFIX rdf:  <http://www.w3.org/1999/02/22-rdf-syntax-ns#>
+PREFIX dbo:  <http://dbpedia.org/ontology/>
+PREFIX ex:   <http://example.com/>
+PREFIX foaf: <http://xmlns.com/foaf/0.1/>
+
+SELECT DISTINCT ?playerName
+WHERE {
+  SERVICE <http://localhost:3030/players/query> {
+      ?player rdf:type        ex:Player ;
+              foaf:name       ?playerName ;
+              ex:marketValue  ?marketValue .
+      OPTIONAL { ?player dbo:team ?team . }
+  }
+  SERVICE <http://localhost:3030/athlete/query> {
+      ?athlete rdf:type   ?type ;
+               foaf:name  ?athleteName ;
+               dbo:sport  ?sportURI .
+      FILTER(
+          ?sportURI IN (
+              dbr:Football
+          )
+      )
+  }
+  
+  BIND(LCASE(?playerName) AS ?p)
+  BIND(LCASE(?athleteName) AS ?a)
+  BIND(STRAFTER(?p, " ") AS ?lastnameP)
+  BIND(STRBEFORE(?p, " ") AS ?firstnameP)
+  BIND(STRAFTER(?a, " ") AS ?firstnameA)
+  BIND(STRBEFORE(?a, " ") AS ?lastnameA)
+  
+  FILTER(
+      (
+        ?lastnameA != "" &&
+        ?lastnameP != "" &&
+        ?lastnameA = ?lastnameP &&
+        ?firstnameA = ?firstnameP
+      )
+  )
+}
+ORDER BY ?athleteName
+
+

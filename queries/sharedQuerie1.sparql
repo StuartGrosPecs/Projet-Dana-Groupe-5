@@ -1,0 +1,35 @@
+PREFIX rdf:   <http://www.w3.org/1999/02/22-rdf-syntax-ns#>
+PREFIX rdfs:  <http://www.w3.org/2000/01/rdf-schema#>
+PREFIX dbo:   <http://dbpedia.org/ontology/>
+PREFIX ex:    <http://example.com/>
+PREFIX foaf:  <http://xmlns.com/foaf/0.1/>
+PREFIX xsd:   <http://www.w3.org/2001/XMLSchema#>
+
+SELECT ?countryNamePlayers ?populationMillions ?totalMarketValueRounded ?ratio
+WHERE {
+  {
+    SELECT ?countryNamePlayers ?population (SUM(?marketValue) AS ?totalMarketValue)
+    WHERE {
+      SERVICE <http://localhost:3030/players/query> {
+        ?player  rdf:type        ex:Player ;
+                 dbo:nationality ?countryPlayers ;
+                 ex:marketValue  ?marketValue .
+
+        ?countryPlayers rdf:type  ex:Country ;
+                        foaf:name ?countryNamePlayers .
+      }
+      SERVICE <http://localhost:3030/worldpop/query> {
+        ?countryPop rdf:type            dbo:Country ;
+                    rdfs:label          ?countryNamePop ;
+                    dbo:populationTotal ?population .
+      }
+      FILTER( STR(?countryNamePlayers) = STR(?countryNamePop) )
+    }
+    GROUP BY ?countryNamePlayers ?population
+  }
+  BIND( ROUND(xsd:double(?population) / 1000000*100)/100 AS ?populationMillions )
+  BIND( ROUND(xsd:double(?totalMarketValue)*100)/100 AS ?totalMarketValueRounded )
+  BIND( ROUND(((xsd:double(?totalMarketValueRounded) / xsd:double(?populationMillions))) * 100) / 100 AS ?ratio)
+}
+ORDER BY DESC(?ratio)
+LIMIT 10

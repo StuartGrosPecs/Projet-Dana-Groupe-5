@@ -1,0 +1,18 @@
+PREFIX ex:    <http://example.com/>
+PREFIX schema: <http://schema.org/>
+PREFIX xsd:  <http://www.w3.org/2001/XMLSchema#>
+
+SELECT ?club 
+       (COUNT(?player) AS ?nbPlayers)
+       (SUM(xsd:integer(?goals)) AS ?totalGoals)
+       (AVG(xsd:integer(?goals)) AS ?avgGoals)
+       (SUM(xsd:integer(?assists)) AS ?totalAssists)
+       (AVG(xsd:integer(?assists)) AS ?avgAssists)
+WHERE {
+       ?player ex:goals ?goals ;
+          ex:assists ?assists ;
+          schema:club ?club .
+}
+GROUP BY ?club
+ORDER BY DESC(?totalGoals)
+LIMIT 10

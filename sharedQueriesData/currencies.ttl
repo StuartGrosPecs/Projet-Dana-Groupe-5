@@ -1,0 +1,3346 @@
+@prefix dbo: <http://dbpedia.org/ontology/> .
+@prefix dbr: <http://dbpedia.org/resource/> .
+@prefix ex: <http://example.org/currency/> .
+@prefix exont: <http://example.org/ontology/> .
+@prefix lexvo: <http://lexvo.org/ontology#> .
+@prefix rdfs: <http://www.w3.org/2000/01/rdf-schema#> .
+@prefix schema1: <http://schema.org/> .
+@prefix xsd: <http://www.w3.org/2001/XMLSchema#> .
+
+ex:AED a dbo:Currency ;
+    rdfs:label "UAE Dirham",
+        "درهم إماراتي"@ar ;
+    dbo:authority "Central Bank of the United Arab Emirates" ;
+    dbo:isoCode "AED" ;
+    dbo:isoCodeNumeric 784 ;
+    dbo:usedInCountry dbr:United_Arab_Emirates ;
+    exont:currencyType "fiat" ;
+    exont:minorUnit "fils" ;
+    exont:populationUsing 9800000 ;
+    lexvo:language <http://lexvo.org/id/iso639-3/ara> ;
+    schema1:currencySymbol "د.إ" .
+
+ex:AFN a dbo:Currency ;
+    rdfs:label "Afghani",
+        "افغانی"@pu ;
+    dbo:authority "Da Afghanistan Bankhttps://spec.edmcouncil.org/fibo/ontology/FND/Accounting/Currency/" ;
+    dbo:isoCode "AFN" ;
+    dbo:isoCodeNumeric 971 ;
+    dbo:usedInCountry dbr:Afghanistan ;
+    exont:currencyType "fiat" ;
+    exont:minorUnit "pul" ;
+    exont:populationUsing 39000000 ;
+    lexvo:language <http://lexvo.org/id/iso639-3/pus> ;
+    schema1:currencySymbol "؋" .
+
+ex:ALL a dbo:Currency ;
+    rdfs:label "Lek",
+        "Lek"@sq ;
+    dbo:authority "Bank of Albania" ;
+    dbo:isoCode "ALL" ;
+    dbo:isoCodeNumeric 8 ;
+    dbo:usedInCountry dbr:Albania ;
+    exont:currencyType "fiat" ;
+    exont:minorUnit "qindarkë" ;
+    exont:populationUsing 2870000 ;
+    lexvo:language <http://lexvo.org/id/iso639-3/sqi> ;
+    schema1:currencySymbol "L" .
+
+ex:AMD a dbo:Currency ;
+    rdfs:label "Armenian Dram",
+        "Դրամ"@hy ;
+    dbo:authority "Central Bank of Armenia" ;
+    dbo:isoCode "AMD" ;
+    dbo:isoCodeNumeric 51 ;
+    dbo:usedInCountry dbr:Armenia ;
+    exont:currencyType "fiat" ;
+    exont:minorUnit "luma" ;
+    exont:populationUsing 2960000 ;
+    lexvo:language <http://lexvo.org/id/iso639-3/hye> ;
+    schema1:currencySymbol "֏" .
+
+ex:AOA a dbo:Currency ;
+    rdfs:label "Kwanza",
+        "Kwanza"@po ;
+    dbo:authority "National Bank of Angola" ;
+    dbo:isoCode "AOA" ;
+    dbo:isoCodeNumeric 973 ;
+    dbo:usedInCountry dbr:Angola ;
+    exont:currencyType "fiat" ;
+    exont:minorUnit "cêntimo" ;
+    exont:populationUsing 33000000 ;
+    lexvo:language <http://lexvo.org/id/iso639-3/por> ;
+    schema1:currencySymbol "Kz" .
+
+ex:ARS a dbo:Currency ;
+    rdfs:label "Argentine Peso",
+        "Peso Argentino"@sp ;
+    dbo:authority "Central Bank of Argentina" ;
+    dbo:isoCode "ARS" ;
+    dbo:isoCodeNumeric 32 ;
+    dbo:usedInCountry dbr:Argentina ;
+    exont:currencyType "fiat" ;
+    exont:minorUnit "centavo" ;
+    exont:populationUsing 45000000 ;
+    lexvo:language <http://lexvo.org/id/iso639-3/spa> ;
+    schema1:currencySymbol "$" .
+
+ex:AUD a dbo:Currency ;
+    rdfs:label "Australian Dollar",
+        "Australian Dollar"@en ;
+    dbo:authority "Reserve Bank of Australia" ;
+    dbo:isoCode "AUD" ;
+    dbo:isoCodeNumeric 36 ;
+    dbo:usedInCountry dbr:Australia,
+        dbr:Christmas_Island,
+        dbr:Cocos_Keeling_Islands,
+        dbr:Heard_Island_And_Mcdonald_Islands,
+        dbr:Kiribati,
+        dbr:Nauru,
+        dbr:Norfolk_Island,
+        dbr:Tuvalu ;
+    exont:currencyType "fiat" ;
+    exont:minorUnit "cent" ;
+    exont:populationUsing 26000000 ;
+    lexvo:language <http://lexvo.org/id/iso639-3/eng> ;
+    schema1:currencySymbol "$" .
+
+ex:AWG a dbo:Currency ;
+    rdfs:label "Aruban Florin",
+        "Arubaanse Florin"@nl ;
+    dbo:authority "Central Bank of Aruba" ;
+    dbo:isoCode "AWG" ;
+    dbo:isoCodeNumeric 533 ;
+    dbo:usedInCountry dbr:Aruba ;
+    exont:currencyType "fiat" ;
+    exont:minorUnit "cent" ;
+    exont:populationUsing 107000 ;
+    lexvo:language <http://lexvo.org/id/iso639-3/nld> ;
+    schema1:currencySymbol "ƒ" .
+
+ex:AZN a dbo:Currency ;
+    rdfs:label "Azerbaijan Manat",
+        "Azərbaycan Manatı"@az ;
+    dbo:authority "Central Bank of Azerbaijan Republic" ;
+    dbo:isoCode "AZN" ;
+    dbo:isoCodeNumeric 944 ;
+    dbo:usedInCountry dbr:Azerbaijan ;
+    exont:currencyType "fiat" ;
+    exont:minorUnit "qəpik" ;
+    exont:populationUsing 10100000 ;
+    lexvo:language <http://lexvo.org/id/iso639-3/aze> ;
+    schema1:currencySymbol "₼" .
+
+ex:BAM a dbo:Currency ;
+    rdfs:label "Convertible Mark",
+        "Konvertibilna Marka"@bo ;
+    dbo:authority "Central Bank of Bosnia and Herzegovina" ;
+    dbo:isoCode "BAM" ;
+    dbo:isoCodeNumeric 977 ;
+    dbo:usedInCountry dbr:Bosnia_And_Herzegovina ;
+    exont:currencyType "fiat" ;
+    exont:minorUnit "fening" ;
+    exont:populationUsing 3300000 ;
+    lexvo:language <http://lexvo.org/id/iso639-3/bos> ;
+    schema1:currencySymbol "KM" .
+
+ex:BBD a dbo:Currency ;
+    rdfs:label "Barbados Dollar",
+        "Barbados Dollar"@en ;
+    dbo:authority "Central Bank of Barbados" ;
+    dbo:isoCode "BBD" ;
+    dbo:isoCodeNumeric 52 ;
+    dbo:usedInCountry dbr:Barbados ;
+    exont:currencyType "fiat" ;
+    exont:minorUnit "cent" ;
+    exont:populationUsing 287000 ;
+    lexvo:language <http://lexvo.org/id/iso639-3/eng> ;
+    schema1:currencySymbol "$" .
+
+ex:BDT a dbo:Currency ;
+    rdfs:label "Taka",
+        "টাকা"@be ;
+    dbo:authority "Bangladesh Bank" ;
+    dbo:isoCode "BDT" ;
+    dbo:isoCodeNumeric 50 ;
+    dbo:usedInCountry dbr:Bangladesh ;
+    exont:currencyType "fiat" ;
+    exont:minorUnit "poisha" ;
+    exont:populationUsing 166000000 ;
+    lexvo:language <http://lexvo.org/id/iso639-3/ben> ;
+    schema1:currencySymbol "৳" .
+
+ex:BGN a dbo:Currency ;
+    rdfs:label "Bulgarian Lev",
+        "Лев"@bu ;
+    dbo:authority "Bulgarian National Bank" ;
+    dbo:isoCode "BGN" ;
+    dbo:isoCodeNumeric 975 ;
+    dbo:usedInCountry dbr:Bulgaria ;
+    exont:currencyType "fiat" ;
+    exont:minorUnit "stotinka" ;
+    exont:populationUsing 6900000 ;
+    lexvo:language <http://lexvo.org/id/iso639-3/bul> ;
+    schema1:currencySymbol "лв" .
+
+ex:BHD a dbo:Currency ;
+    rdfs:label "Bahraini Dinar",
+        "دينار بحريني"@ar ;
+    dbo:authority "Central Bank of Bahrain" ;
+    dbo:isoCode "BHD" ;
+    dbo:isoCodeNumeric 48 ;
+    dbo:usedInCountry dbr:Bahrain ;
+    exont:currencyType "fiat" ;
+    exont:minorUnit "fils" ;
+    exont:populationUsing 1700000 ;
+    lexvo:language <http://lexvo.org/id/iso639-3/ara> ;
+    schema1:currencySymbol ".د.ب" .
+
+ex:BIF a dbo:Currency ;
+    rdfs:label "Burundi Franc",
+        "Franc Burundais"@fr ;
+    dbo:authority "Bank of the Republic of Burundi" ;
+    dbo:isoCode "BIF" ;
+    dbo:isoCodeNumeric 108 ;
+    dbo:usedInCountry dbr:Burundi ;
+    exont:currencyType "fiat" ;
+    exont:populationUsing 12000000 ;
+    lexvo:language <http://lexvo.org/id/iso639-3/fra> ;
+    schema1:currencySymbol "FBu" .
+
+ex:BMD a dbo:Currency ;
+    rdfs:label "Bermudian Dollar",
+        "Bermudian Dollar"@en ;
+    dbo:authority "Bermuda Monetary Authority" ;
+    dbo:isoCode "BMD" ;
+    dbo:isoCodeNumeric 60 ;
+    dbo:usedInCountry dbr:Bermuda ;
+    exont:currencyType "fiat" ;
+    exont:minorUnit "cent" ;
+    exont:populationUsing 64000 ;
+    lexvo:language <http://lexvo.org/id/iso639-3/eng> ;
+    schema1:currencySymbol "$" .
+
+ex:BND a dbo:Currency ;
+    rdfs:label "Brunei Dollar",
+        "Ringgit Brunei"@ms ;
+    dbo:authority "Monetary Authority of Brunei Darussalam" ;
+    dbo:isoCode "BND" ;
+    dbo:isoCodeNumeric 96 ;
+    dbo:usedInCountry dbr:Brunei_Darussalam ;
+    exont:currencyType "fiat" ;
+    exont:minorUnit "sen" ;
+    exont:populationUsing 440000 ;
+    lexvo:language <http://lexvo.org/id/iso639-3/msa> ;
+    schema1:currencySymbol "$" .
+
+ex:BOB a dbo:Currency ;
+    rdfs:label "Boliviano",
+        "Boliviano"@sp ;
+    dbo:authority "Central Bank of Bolivia" ;
+    dbo:isoCode "BOB" ;
+    dbo:isoCodeNumeric 68 ;
+    dbo:usedInCountry dbr:Bolivia_Plurinational_State_Of ;
+    exont:currencyType "fiat" ;
+    exont:minorUnit "centavo" ;
+    exont:populationUsing 11600000 ;
+    lexvo:language <http://lexvo.org/id/iso639-3/spa> ;
+    schema1:currencySymbol "Bs." .
+
+ex:BOV a dbo:Currency ;
+    rdfs:label "Mvdol",
+        "Mvdol"@sp ;
+    dbo:isoCode "BOV" ;
+    dbo:isoCodeNumeric 984 ;
+    dbo:usedInCountry dbr:Bolivia_Plurinational_State_Of ;
+    exont:currencyType "fiat" ;
+    exont:populationUsing 11600000 ;
+    lexvo:language <http://lexvo.org/id/iso639-3/spa> .
+
+ex:BRL a dbo:Currency ;
+    rdfs:label "Brazilian Real",
+        "Real"@po ;
+    dbo:authority "Central Bank of Brazil" ;
+    dbo:isoCode "BRL" ;
+    dbo:isoCodeNumeric 986 ;
+    dbo:usedInCountry dbr:Brazil ;
+    exont:currencyType "fiat" ;
+    exont:minorUnit "centavo" ;
+    exont:populationUsing 213000000 ;
+    lexvo:language <http://lexvo.org/id/iso639-3/por> ;
+    schema1:currencySymbol "R$" .
+
+ex:BSD a dbo:Currency ;
+    rdfs:label "Bahamian Dollar",
+        "Bahamian Dollar"@en ;
+    dbo:authority "Central Bank of The Bahamas" ;
+    dbo:isoCode "BSD" ;
+    dbo:isoCodeNumeric 44 ;
+    dbo:usedInCountry dbr:Bahamas ;
+    exont:currencyType "fiat" ;
+    exont:minorUnit "cent" ;
+    exont:populationUsing 393000 ;
+    lexvo:language <http://lexvo.org/id/iso639-3/eng> ;
+    schema1:currencySymbol "$" .
+
+ex:BTN a dbo:Currency ;
+    rdfs:label "Ngultrum",
+        "དངུལ་ཀྲམ"@dz ;
+    dbo:authority "Royal Monetary Authority of Bhutan" ;
+    dbo:isoCode "BTN" ;
+    dbo:isoCodeNumeric 64 ;
+    dbo:usedInCountry dbr:Bhutan ;
+    exont:currencyType "fiat" ;
+    exont:minorUnit "chetrum" ;
+    exont:populationUsing 770000 ;
+    lexvo:language <http://lexvo.org/id/iso639-3/dzo> ;
+    schema1:currencySymbol "Nu." .
+
+ex:BWP a dbo:Currency ;
+    rdfs:label "Pula",
+        "Pula"@en ;
+    dbo:authority "Bank of Botswana" ;
+    dbo:isoCode "BWP" ;
+    dbo:isoCodeNumeric 72 ;
+    dbo:usedInCountry dbr:Botswana ;
+    exont:currencyType "fiat" ;
+    exont:minorUnit "thebe" ;
+    exont:populationUsing 2400000 ;
+    lexvo:language <http://lexvo.org/id/iso639-3/eng> ;
+    schema1:currencySymbol "P" .
+
+ex:BYN a dbo:Currency ;
+    rdfs:label "Belarusian Ruble",
+        "Беларускі рубель"@be ;
+    dbo:authority "National Bank of the Republic of Belarus" ;
+    dbo:isoCode "BYN" ;
+    dbo:isoCodeNumeric 933 ;
+    dbo:usedInCountry dbr:Belarus ;
+    exont:currencyType "fiat" ;
+    exont:minorUnit "kapeyka" ;
+    exont:populationUsing 9400000 ;
+    lexvo:language <http://lexvo.org/id/iso639-3/bel> ;
+    schema1:currencySymbol "Br" .
+
+ex:BZD a dbo:Currency ;
+    rdfs:label "Belize Dollar",
+        "Belize Dollar"@en ;
+    dbo:authority "Central Bank of Belize" ;
+    dbo:isoCode "BZD" ;
+    dbo:isoCodeNumeric 84 ;
+    dbo:usedInCountry dbr:Belize ;
+    exont:currencyType "fiat" ;
+    exont:minorUnit "cent" ;
+    exont:populationUsing 420000 ;
+    lexvo:language <http://lexvo.org/id/iso639-3/eng> ;
+    schema1:currencySymbol "$" .
+
+ex:CAD a dbo:Currency ;
+    rdfs:label "Canadian Dollar",
+        "Canadian Dollar"@en ;
+    dbo:authority "Bank of Canada" ;
+    dbo:isoCode "CAD" ;
+    dbo:isoCodeNumeric 124 ;
+    dbo:usedInCountry dbr:Canada ;
+    exont:currencyType "fiat" ;
+    exont:minorUnit "cent" ;
+    exont:populationUsing 38000000 ;
+    lexvo:language <http://lexvo.org/id/iso639-3/eng> ;
+    schema1:currencySymbol "$" .
+
+ex:CDF a dbo:Currency ;
+    rdfs:label "Congolese Franc",
+        "Franc Congolais"@fr ;
+    dbo:authority "Central Bank of the Congo" ;
+    dbo:isoCode "CDF" ;
+    dbo:isoCodeNumeric 976 ;
+    dbo:usedInCountry dbr:Congo_The_Democratic_Republic_Of_The ;
+    exont:currencyType "fiat" ;
+    exont:minorUnit "centime" ;
+    exont:populationUsing 92000000 ;
+    lexvo:language <http://lexvo.org/id/iso639-3/fra> ;
+    schema1:currencySymbol "FC" .
+
+ex:CHE a dbo:Currency ;
+    rdfs:label "WIR Euro",
+        "WIR Euro"@de ;
+    dbo:authority "Swiss National Bank" ;
+    dbo:isoCode "CHE" ;
+    dbo:isoCodeNumeric 947 ;
+    dbo:usedInCountry dbr:Switzerland ;
+    exont:currencyType "fiat" ;
+    exont:minorUnit "rappen" ;
+    exont:populationUsing 8700000 ;
+    lexvo:language <http://lexvo.org/id/iso639-3/deu> .
+
+ex:CHF a dbo:Currency ;
+    rdfs:label "Swiss Franc",
+        "Franken"@de ;
+    dbo:authority "Swiss National Bank" ;
+    dbo:isoCode "CHF" ;
+    dbo:isoCodeNumeric 756 ;
+    dbo:usedInCountry dbr:Liechtenstein,
+        dbr:Switzerland ;
+    exont:currencyType "fiat" ;
+    exont:minorUnit "rappen" ;
+    exont:populationUsing 8700000 ;
+    lexvo:language <http://lexvo.org/id/iso639-3/deu> ;
+    schema1:currencySymbol "Fr." .
+
+ex:CHW a dbo:Currency ;
+    rdfs:label "WIR Franc",
+        "WIR Franc"@de ;
+    dbo:authority "Swiss National Bank" ;
+    dbo:isoCode "CHW" ;
+    dbo:isoCodeNumeric 948 ;
+    dbo:usedInCountry dbr:Switzerland ;
+    exont:currencyType "fiat" ;
+    exont:minorUnit "rappen" ;
+    exont:populationUsing 8700000 ;
+    lexvo:language <http://lexvo.org/id/iso639-3/deu> .
+
+ex:CLF a dbo:Currency ;
+    rdfs:label "Unidad de Fomento",
+        "Unidad de Fomento"@sp ;
+    dbo:isoCode "CLF" ;
+    dbo:isoCodeNumeric 990 ;
+    dbo:usedInCountry dbr:Chile ;
+    exont:currencyType "fiat" ;
+    exont:populationUsing 19000000 ;
+    lexvo:language <http://lexvo.org/id/iso639-3/spa> .
+
+ex:CLP a dbo:Currency ;
+    rdfs:label "Chilean Peso",
+        "Peso Chileno"@sp ;
+    dbo:authority "Central Bank of Chile" ;
+    dbo:isoCode "CLP" ;
+    dbo:isoCodeNumeric 152 ;
+    dbo:usedInCountry dbr:Chile ;
+    exont:currencyType "fiat" ;
+    exont:minorUnit "centavo" ;
+    exont:populationUsing 19000000 ;
+    lexvo:language <http://lexvo.org/id/iso639-3/spa> ;
+    schema1:currencySymbol "$" .
+
+ex:CNY a dbo:Currency ;
+    rdfs:label "Yuan Renminbi",
+        "人民币"@zh ;
+    dbo:authority "People's Bank of China" ;
+    dbo:isoCode "CNY" ;
+    dbo:isoCodeNumeric 156 ;
+    dbo:usedInCountry dbr:China ;
+    exont:currencyType "fiat" ;
+    exont:minorUnit "fen" ;
+    exont:populationUsing 1440000000 ;
+    lexvo:language <http://lexvo.org/id/iso639-3/zho> ;
+    schema1:currencySymbol "¥" .
+
+ex:COP a dbo:Currency ;
+    rdfs:label "Colombian Peso",
+        "Peso Colombiano"@sp ;
+    dbo:authority "Bank of the Republic (Colombia)" ;
+    dbo:isoCode "COP" ;
+    dbo:isoCodeNumeric 170 ;
+    dbo:usedInCountry dbr:Colombia ;
+    exont:currencyType "fiat" ;
+    exont:minorUnit "centavo" ;
+    exont:populationUsing 51000000 ;
+    lexvo:language <http://lexvo.org/id/iso639-3/spa> ;
+    schema1:currencySymbol "$" .
+
+ex:COU a dbo:Currency ;
+    rdfs:label "Unidad de Valor Real" ;
+    dbo:isoCode "COU" ;
+    dbo:isoCodeNumeric 970 ;
+    dbo:usedInCountry dbr:Colombia ;
+    exont:currencyType "fiat" ;
+    exont:populationUsing 51000000 ;
+    lexvo:language <http://lexvo.org/id/iso639-3/spa> .
+
+ex:CRC a dbo:Currency ;
+    rdfs:label "Costa Rican Colon",
+        "Colón Costarricense"@sp ;
+    dbo:authority "Central Bank of Costa Rica" ;
+    dbo:isoCode "CRC" ;
+    dbo:isoCodeNumeric 188 ;
+    dbo:usedInCountry dbr:Costa_Rica ;
+    exont:currencyType "fiat" ;
+    exont:minorUnit "céntimo" ;
+    exont:populationUsing 5100000 ;
+    lexvo:language <http://lexvo.org/id/iso639-3/spa> ;
+    schema1:currencySymbol "₡" .
+
+ex:CUP a dbo:Currency ;
+    rdfs:label "Cuban Peso",
+        "Peso Cubano"@sp ;
+    dbo:authority "Central Bank of Cuba" ;
+    dbo:isoCode "CUP" ;
+    dbo:isoCodeNumeric 192 ;
+    dbo:usedInCountry dbr:Cuba ;
+    exont:currencyType "fiat" ;
+    exont:minorUnit "centavo" ;
+    exont:populationUsing 11300000 ;
+    lexvo:language <http://lexvo.org/id/iso639-3/spa> ;
+    schema1:currencySymbol "$" .
+
+ex:CVE a dbo:Currency ;
+    rdfs:label "Cabo Verde Escudo",
+        "Escudo Cabo-verdiano"@po ;
+    dbo:authority "Bank of Cape Verde" ;
+    dbo:isoCode "CVE" ;
+    dbo:isoCodeNumeric 132 ;
+    dbo:usedInCountry dbr:Cabo_Verde ;
+    exont:currencyType "fiat" ;
+    exont:minorUnit "centavo" ;
+    exont:populationUsing 560000 ;
+    lexvo:language <http://lexvo.org/id/iso639-3/por> ;
+    schema1:currencySymbol "$" .
+
+ex:CZK a dbo:Currency ;
+    rdfs:label "Czech Koruna",
+        "Koruna Česká"@ce ;
+    dbo:authority "Czech National Bank" ;
+    dbo:isoCode "CZK" ;
+    dbo:isoCodeNumeric 203 ;
+    dbo:usedInCountry dbr:Czechia ;
+    exont:currencyType "fiat" ;
+    exont:minorUnit "haléř" ;
+    exont:populationUsing 10700000 ;
+    lexvo:language <http://lexvo.org/id/iso639-3/ces> ;
+    schema1:currencySymbol "Kč" .
+
+ex:DJF a dbo:Currency ;
+    rdfs:label "Djibouti Franc",
+        "Franc Djibouti"@fr ;
+    dbo:authority "Central Bank of Djibouti" ;
+    dbo:isoCode "DJF" ;
+    dbo:isoCodeNumeric 262 ;
+    dbo:usedInCountry dbr:Djibouti ;
+    exont:currencyType "fiat" ;
+    exont:populationUsing 990000 ;
+    lexvo:language <http://lexvo.org/id/iso639-3/fra> ;
+    schema1:currencySymbol "Fdj" .
+
+ex:DKK a dbo:Currency ;
+    rdfs:label "Danish Krone",
+        "Dansk Krone"@da ;
+    dbo:authority "Danmarks Nationalbank" ;
+    dbo:isoCode "DKK" ;
+    dbo:isoCodeNumeric 208 ;
+    dbo:usedInCountry dbr:Denmark,
+        dbr:Faroe_Islands,
+        dbr:Greenland ;
+    exont:currencyType "fiat" ;
+    exont:minorUnit "øre" ;
+    exont:populationUsing 5800000 ;
+    lexvo:language <http://lexvo.org/id/iso639-3/dan> ;
+    schema1:currencySymbol "kr" .
+
+ex:DOP a dbo:Currency ;
+    rdfs:label "Dominican Peso",
+        "Peso Dominicano"@sp ;
+    dbo:authority "Central Bank of the Dominican Republic" ;
+    dbo:isoCode "DOP" ;
+    dbo:isoCodeNumeric 214 ;
+    dbo:usedInCountry dbr:Dominican_Republic ;
+    exont:currencyType "fiat" ;
+    exont:minorUnit "centavo" ;
+    exont:populationUsing 11000000 ;
+    lexvo:language <http://lexvo.org/id/iso639-3/spa> ;
+    schema1:currencySymbol "$" .
+
+ex:DZD a dbo:Currency ;
+    rdfs:label "Algerian Dinar",
+        "دينار جزائري"@ar ;
+    dbo:authority "Bank of Algeria" ;
+    dbo:isoCode "DZD" ;
+    dbo:isoCodeNumeric 12 ;
+    dbo:usedInCountry dbr:Algeria ;
+    exont:currencyType "fiat" ;
+    exont:minorUnit "centime" ;
+    exont:populationUsing 44000000 ;
+    lexvo:language <http://lexvo.org/id/iso639-3/ara> ;
+    schema1:currencySymbol "دج" .
+
+ex:EGP a dbo:Currency ;
+    rdfs:label "Egyptian Pound",
+        "جنيه مصري"@ar ;
+    dbo:authority "Central Bank of Egypt" ;
+    dbo:isoCode "EGP" ;
+    dbo:isoCodeNumeric 818 ;
+    dbo:usedInCountry dbr:Egypt ;
+    exont:currencyType "fiat" ;
+    exont:minorUnit "piastre" ;
+    exont:populationUsing 104000000 ;
+    lexvo:language <http://lexvo.org/id/iso639-3/ara> ;
+    schema1:currencySymbol "ج.م" .
+
+ex:ERN a dbo:Currency ;
+    rdfs:label "Nakfa",
+        "ናቕፋ"@ti ;
+    dbo:authority "Bank of Eritrea" ;
+    dbo:isoCode "ERN" ;
+    dbo:isoCodeNumeric 232 ;
+    dbo:usedInCountry dbr:Eritrea ;
+    exont:currencyType "fiat" ;
+    exont:minorUnit "cent" ;
+    exont:populationUsing 3600000 ;
+    lexvo:language <http://lexvo.org/id/iso639-3/tir> ;
+    schema1:currencySymbol "Nfk" .
+
+ex:ETB a dbo:Currency ;
+    rdfs:label "Ethiopian Birr",
+        "ብር"@am ;
+    dbo:authority "National Bank of Ethiopia" ;
+    dbo:isoCode "ETB" ;
+    dbo:isoCodeNumeric 230 ;
+    dbo:usedInCountry dbr:Ethiopia ;
+    exont:currencyType "fiat" ;
+    exont:minorUnit "santim" ;
+    exont:populationUsing 120000000 ;
+    lexvo:language <http://lexvo.org/id/iso639-3/amh> ;
+    schema1:currencySymbol "Br" .
+
+ex:EUR a dbo:Currency ;
+    rdfs:label "Euro",
+        "Euro"@de ;
+    dbo:authority "European Central Bank" ;
+    dbo:isoCode "EUR" ;
+    dbo:isoCodeNumeric 978 ;
+    dbo:usedInCountry dbr:Andorra,
+        dbr:Austria,
+        dbr:Belgium,
+        dbr:Croatia,
+        dbr:Cyprus,
+        dbr:Estonia,
+        dbr:European_Union,
+        dbr:Finland,
+        dbr:France,
+        dbr:French_Guiana,
+        dbr:French_Southern_Territories,
+        dbr:Germany,
+        dbr:Greece,
+        dbr:Guadeloupe,
+        dbr:Holy_See,
+        dbr:Ireland,
+        dbr:Italy,
+        dbr:Latvia,
+        dbr:Lithuania,
+        dbr:Luxembourg,
+        dbr:Malta,
+        dbr:Martinique,
+        dbr:Mayotte,
+        dbr:Monaco,
+        dbr:Montenegro,
+        dbr:Netherlands,
+        dbr:Portugal,
+        dbr:RéUnion,
+        dbr:Saint_BarthéLemy,
+        dbr:Saint_Martin_French_Part,
+        dbr:Saint_Pierre_And_Miquelon,
+        dbr:San_Marino,
+        dbr:Slovakia,
+        dbr:Slovenia,
+        dbr:Spain,
+        dbr:åLand_Islands ;
+    exont:currencyType "fiat" ;
+    exont:minorUnit "cent" ;
+    exont:populationUsing 340000000 ;
+    lexvo:language <http://lexvo.org/id/iso639-3/deu> ;
+    schema1:currencySymbol "€" .
+
+ex:FJD a dbo:Currency ;
+    rdfs:label "Fiji Dollar",
+        "Fijian Dollar"@en ;
+    dbo:authority "Reserve Bank of Fiji" ;
+    dbo:isoCode "FJD" ;
+    dbo:isoCodeNumeric 242 ;
+    dbo:usedInCountry dbr:Fiji ;
+    exont:currencyType "fiat" ;
+    exont:minorUnit "cent" ;
+    exont:populationUsing 900000 ;
+    lexvo:language <http://lexvo.org/id/iso639-3/eng> ;
+    schema1:currencySymbol "$" .
+
+ex:FKP a dbo:Currency ;
+    rdfs:label "Falkland Islands Pound",
+        "Falkland Islands Pound"@en ;
+    dbo:authority "Government of the Falkland Islands" ;
+    dbo:isoCode "FKP" ;
+    dbo:isoCodeNumeric 238 ;
+    dbo:usedInCountry dbr:Falkland_Islands ;
+    exont:currencyType "fiat" ;
+    exont:minorUnit "penny" ;
+    exont:populationUsing 3500 ;
+    lexvo:language <http://lexvo.org/id/iso639-3/eng> ;
+    schema1:currencySymbol "£" .
+
+ex:GBP a dbo:Currency ;
+    rdfs:label "Pound Sterling",
+        "Pound Sterling"@en ;
+    dbo:authority "Bank of England" ;
+    dbo:isoCode "GBP" ;
+    dbo:isoCodeNumeric 826 ;
+    dbo:usedInCountry dbr:Guernsey,
+        dbr:Isle_Of_Man,
+        dbr:Jersey,
+        dbr:United_Kingdom_Of_Great_Britain_And_Northern_Ireland ;
+    exont:currencyType "fiat" ;
+    exont:minorUnit "penny" ;
+    exont:populationUsing 67000000 ;
+    lexvo:language <http://lexvo.org/id/iso639-3/eng> ;
+    schema1:currencySymbol "£" .
+
+ex:GEL a dbo:Currency ;
+    rdfs:label "Lari",
+        "ლარი"@ka ;
+    dbo:authority "National Bank of Georgia" ;
+    dbo:isoCode "GEL" ;
+    dbo:isoCodeNumeric 981 ;
+    dbo:usedInCountry dbr:Georgia ;
+    exont:currencyType "fiat" ;
+    exont:minorUnit "tetri" ;
+    exont:populationUsing 3700000 ;
+    lexvo:language <http://lexvo.org/id/iso639-3/kat> ;
+    schema1:currencySymbol "₾" .
+
+ex:GHS a dbo:Currency ;
+    rdfs:label "Ghana Cedi",
+        "Ghana Cedi"@en ;
+    dbo:authority "Bank of Ghana" ;
+    dbo:isoCode "GHS" ;
+    dbo:isoCodeNumeric 936 ;
+    dbo:usedInCountry dbr:Ghana ;
+    exont:currencyType "fiat" ;
+    exont:minorUnit "pesewa" ;
+    exont:populationUsing 31000000 ;
+    lexvo:language <http://lexvo.org/id/iso639-3/eng> ;
+    schema1:currencySymbol "₵" .
+
+ex:GIP a dbo:Currency ;
+    rdfs:label "Gibraltar Pound",
+        "Gibraltar Pound"@en ;
+    dbo:authority "Government of Gibraltar" ;
+    dbo:isoCode "GIP" ;
+    dbo:isoCodeNumeric 292 ;
+    dbo:usedInCountry dbr:Gibraltar ;
+    exont:currencyType "fiat" ;
+    exont:minorUnit "penny" ;
+    exont:populationUsing 34000 ;
+    lexvo:language <http://lexvo.org/id/iso639-3/eng> ;
+    schema1:currencySymbol "£" .
+
+ex:GMD a dbo:Currency ;
+    rdfs:label "Dalasi",
+        "Dalasi"@en ;
+    dbo:authority "Central Bank of The Gambia" ;
+    dbo:isoCode "GMD" ;
+    dbo:isoCodeNumeric 270 ;
+    dbo:usedInCountry dbr:Gambia ;
+    exont:currencyType "fiat" ;
+    exont:minorUnit "butut" ;
+    exont:populationUsing 2400000 ;
+    lexvo:language <http://lexvo.org/id/iso639-3/eng> ;
+    schema1:currencySymbol "D" .
+
+ex:GNF a dbo:Currency ;
+    rdfs:label "Guinean Franc",
+        "Franc Guinéen"@fr ;
+    dbo:authority "Central Bank of the Republic of Guinea" ;
+    dbo:isoCode "GNF" ;
+    dbo:isoCodeNumeric 324 ;
+    dbo:usedInCountry dbr:Guinea ;
+    exont:currencyType "fiat" ;
+    exont:minorUnit "centime" ;
+    exont:populationUsing 13000000 ;
+    lexvo:language <http://lexvo.org/id/iso639-3/fra> ;
+    schema1:currencySymbol "FG" .
+
+ex:GTQ a dbo:Currency ;
+    rdfs:label "Quetzal",
+        "Quetzal"@sp ;
+    dbo:authority "Bank of Guatemala" ;
+    dbo:isoCode "GTQ" ;
+    dbo:isoCodeNumeric 320 ;
+    dbo:usedInCountry dbr:Guatemala ;
+    exont:currencyType "fiat" ;
+    exont:minorUnit "centavo" ;
+    exont:populationUsing 18000000 ;
+    lexvo:language <http://lexvo.org/id/iso639-3/spa> ;
+    schema1:currencySymbol "Q" .
+
+ex:GYD a dbo:Currency ;
+    rdfs:label "Guyana Dollar",
+        "Guyanese Dollar"@en ;
+    dbo:authority "Bank of Guyana" ;
+    dbo:isoCode "GYD" ;
+    dbo:isoCodeNumeric 328 ;
+    dbo:usedInCountry dbr:Guyana ;
+    exont:currencyType "fiat" ;
+    exont:minorUnit "cent" ;
+    exont:populationUsing 790000 ;
+    lexvo:language <http://lexvo.org/id/iso639-3/eng> ;
+    schema1:currencySymbol "$" .
+
+ex:HKD a dbo:Currency ;
+    rdfs:label "Hong Kong Dollar",
+        "港元"@zh ;
+    dbo:authority "Hong Kong Monetary Authority" ;
+    dbo:isoCode "HKD" ;
+    dbo:isoCodeNumeric 344 ;
+    dbo:usedInCountry dbr:Hong_Kong ;
+    exont:currencyType "fiat" ;
+    exont:minorUnit "cent" ;
+    exont:populationUsing 7500000 ;
+    lexvo:language <http://lexvo.org/id/iso639-3/zho> ;
+    schema1:currencySymbol "$" .
+
+ex:HNL a dbo:Currency ;
+    rdfs:label "Lempira",
+        "Lempira"@sp ;
+    dbo:authority "Central Bank of Honduras" ;
+    dbo:isoCode "HNL" ;
+    dbo:isoCodeNumeric 340 ;
+    dbo:usedInCountry dbr:Honduras ;
+    exont:currencyType "fiat" ;
+    exont:minorUnit "centavo" ;
+    exont:populationUsing 10000000 ;
+    lexvo:language <http://lexvo.org/id/iso639-3/spa> ;
+    schema1:currencySymbol "L" .
+
+ex:HTG a dbo:Currency ;
+    rdfs:label "Gourde",
+        "Gourde"@ha ;
+    dbo:authority "Bank of the Republic of Haiti" ;
+    dbo:isoCode "HTG" ;
+    dbo:isoCodeNumeric 332 ;
+    dbo:usedInCountry dbr:Haiti ;
+    exont:currencyType "fiat" ;
+    exont:minorUnit "centime" ;
+    exont:populationUsing 11000000 ;
+    lexvo:language <http://lexvo.org/id/iso639-3/hat> ;
+    schema1:currencySymbol "G" .
+
+ex:HUF a dbo:Currency ;
+    rdfs:label "Forint",
+        "Forint"@hu ;
+    dbo:authority "Magyar Nemzeti Bank" ;
+    dbo:isoCode "HUF" ;
+    dbo:isoCodeNumeric 348 ;
+    dbo:usedInCountry dbr:Hungary ;
+    exont:currencyType "fiat" ;
+    exont:minorUnit "fillér" ;
+    exont:populationUsing 9700000 ;
+    lexvo:language <http://lexvo.org/id/iso639-3/hun> ;
+    schema1:currencySymbol "Ft" .
+
+ex:IDR a dbo:Currency ;
+    rdfs:label "Rupiah",
+        "Rupiah"@in ;
+    dbo:authority "Bank Indonesia" ;
+    dbo:isoCode "IDR" ;
+    dbo:isoCodeNumeric 360 ;
+    dbo:usedInCountry dbr:Indonesia ;
+    exont:currencyType "fiat" ;
+    exont:minorUnit "sen" ;
+    exont:populationUsing 273000000 ;
+    lexvo:language <http://lexvo.org/id/iso639-3/ind> ;
+    schema1:currencySymbol "Rp" .
+
+ex:ILS a dbo:Currency ;
+    rdfs:label "New Israeli Sheqel",
+        "שקל חדש"@he ;
+    dbo:authority "Bank of Israel" ;
+    dbo:isoCode "ILS" ;
+    dbo:isoCodeNumeric 376 ;
+    dbo:usedInCountry dbr:Israel ;
+    exont:currencyType "fiat" ;
+    exont:minorUnit "agora" ;
+    exont:populationUsing 9300000 ;
+    lexvo:language <http://lexvo.org/id/iso639-3/heb> ;
+    schema1:currencySymbol "₪" .
+
+ex:INR a dbo:Currency ;
+    rdfs:label "Indian Rupee",
+        "रुपया"@hi ;
+    dbo:authority "Reserve Bank of India" ;
+    dbo:isoCode "INR" ;
+    dbo:isoCodeNumeric 356 ;
+    dbo:usedInCountry dbr:Bhutan,
+        dbr:India ;
+    exont:currencyType "fiat" ;
+    exont:minorUnit "paise" ;
+    exont:populationUsing 1390000000 ;
+    lexvo:language <http://lexvo.org/id/iso639-3/hin> ;
+    schema1:currencySymbol "₹" .
+
+ex:IQD a dbo:Currency ;
+    rdfs:label "Iraqi Dinar",
+        "دينار عراقي"@ar ;
+    dbo:authority "Central Bank of Iraq" ;
+    dbo:isoCode "IQD" ;
+    dbo:isoCodeNumeric 368 ;
+    dbo:usedInCountry dbr:Iraq ;
+    exont:currencyType "fiat" ;
+    exont:minorUnit "fils" ;
+    exont:populationUsing 41000000 ;
+    lexvo:language <http://lexvo.org/id/iso639-3/ara> ;
+    schema1:currencySymbol "ع.د" .
+
+ex:IRR a dbo:Currency ;
+    rdfs:label "Iranian Rial",
+        "ریال"@fa ;
+    dbo:authority "Central Bank of the Islamic Republic of Iran" ;
+    dbo:isoCode "IRR" ;
+    dbo:isoCodeNumeric 364 ;
+    dbo:usedInCountry dbr:Iran_Islamic_Republic_Of ;
+    exont:currencyType "fiat" ;
+    exont:minorUnit "dinar" ;
+    exont:populationUsing 85000000 ;
+    lexvo:language <http://lexvo.org/id/iso639-3/fas> ;
+    schema1:currencySymbol "﷼" .
+
+ex:ISK a dbo:Currency ;
+    rdfs:label "Iceland Krona",
+        "Íslensk Króna"@is ;
+    dbo:authority "Central Bank of Iceland" ;
+    dbo:isoCode "ISK" ;
+    dbo:isoCodeNumeric 352 ;
+    dbo:usedInCountry dbr:Iceland ;
+    exont:currencyType "fiat" ;
+    exont:minorUnit "eyrir" ;
+    exont:populationUsing 370000 ;
+    lexvo:language <http://lexvo.org/id/iso639-3/isl> ;
+    schema1:currencySymbol "kr" .
+
+ex:JMD a dbo:Currency ;
+    rdfs:label "Jamaican Dollar",
+        "Jamaican Dollar"@en ;
+    dbo:authority "Bank of Jamaica" ;
+    dbo:isoCode "JMD" ;
+    dbo:isoCodeNumeric 388 ;
+    dbo:usedInCountry dbr:Jamaica ;
+    exont:currencyType "fiat" ;
+    exont:minorUnit "cent" ;
+    exont:populationUsing 3000000 ;
+    lexvo:language <http://lexvo.org/id/iso639-3/eng> ;
+    schema1:currencySymbol "$" .
+
+ex:JOD a dbo:Currency ;
+    rdfs:label "Jordanian Dinar",
+        "دينار أردني"@ar ;
+    dbo:authority "Central Bank of Jordan" ;
+    dbo:isoCode "JOD" ;
+    dbo:isoCodeNumeric 400 ;
+    dbo:usedInCountry dbr:Jordan ;
+    exont:currencyType "fiat" ;
+    exont:minorUnit "qirsh" ;
+    exont:populationUsing 10000000 ;
+    lexvo:language <http://lexvo.org/id/iso639-3/ara> ;
+    schema1:currencySymbol "د.ا" .
+
+ex:JPY a dbo:Currency ;
+    rdfs:label "Yen",
+        "円"@jp ;
+    dbo:authority "Bank of Japan" ;
+    dbo:isoCode "JPY" ;
+    dbo:isoCodeNumeric 392 ;
+    dbo:usedInCountry dbr:Japan ;
+    exont:currencyType "fiat" ;
+    exont:populationUsing 126000000 ;
+    lexvo:language <http://lexvo.org/id/iso639-3/jpn> ;
+    schema1:currencySymbol "¥" .
+
+ex:KES a dbo:Currency ;
+    rdfs:label "Kenyan Shilling",
+        "Kenyan Shilling"@en ;
+    dbo:authority "Central Bank of Kenya" ;
+    dbo:isoCode "KES" ;
+    dbo:isoCodeNumeric 404 ;
+    dbo:usedInCountry dbr:Kenya ;
+    exont:currencyType "fiat" ;
+    exont:minorUnit "cent" ;
+    exont:populationUsing 54000000 ;
+    lexvo:language <http://lexvo.org/id/iso639-3/eng> ;
+    schema1:currencySymbol "KSh" .
+
+ex:KGS a dbo:Currency ;
+    rdfs:label "Som",
+        "Сом"@ki ;
+    dbo:authority "National Bank of the Kyrgyz Republic" ;
+    dbo:isoCode "KGS" ;
+    dbo:isoCodeNumeric 417 ;
+    dbo:usedInCountry dbr:Kyrgyzstan ;
+    exont:currencyType "fiat" ;
+    exont:minorUnit "tyiyn" ;
+    exont:populationUsing 6600000 ;
+    lexvo:language <http://lexvo.org/id/iso639-3/kir> ;
+    schema1:currencySymbol "лв" .
+
+ex:KHR a dbo:Currency ;
+    rdfs:label "Riel",
+        "រៀល"@kh ;
+    dbo:authority "National Bank of Cambodia" ;
+    dbo:isoCode "KHR" ;
+    dbo:isoCodeNumeric 116 ;
+    dbo:usedInCountry dbr:Cambodia ;
+    exont:currencyType "fiat" ;
+    exont:minorUnit "sen" ;
+    exont:populationUsing 17000000 ;
+    lexvo:language <http://lexvo.org/id/iso639-3/khm> ;
+    schema1:currencySymbol "៛" .
+
+ex:KMF a dbo:Currency ;
+    rdfs:label "Comorian Franc",
+        "Franc Comorien"@fr ;
+    dbo:authority "Central Bank of the Comoros" ;
+    dbo:isoCode "KMF" ;
+    dbo:isoCodeNumeric 174 ;
+    dbo:usedInCountry dbr:Comoros ;
+    exont:currencyType "fiat" ;
+    exont:minorUnit "centime" ;
+    exont:populationUsing 870000 ;
+    lexvo:language <http://lexvo.org/id/iso639-3/fra> ;
+    schema1:currencySymbol "CF" .
+
+ex:KPW a dbo:Currency ;
+    rdfs:label "North Korean Won",
+        "조선 원"@ko ;
+    dbo:authority "Central Bank of the Democratic People's Republic of Korea" ;
+    dbo:isoCode "KPW" ;
+    dbo:isoCodeNumeric 408 ;
+    dbo:usedInCountry dbr:Korea_The_Democratic_People%E2%80%99S_Republic_Of ;
+    exont:currencyType "fiat" ;
+    exont:minorUnit "chon" ;
+    exont:populationUsing 26000000 ;
+    lexvo:language <http://lexvo.org/id/iso639-3/kor> ;
+    schema1:currencySymbol "₩" .
+
+ex:KRW a dbo:Currency ;
+    rdfs:label "Won",
+        "원"@ko ;
+    dbo:authority "Bank of Korea" ;
+    dbo:isoCode "KRW" ;
+    dbo:isoCodeNumeric 410 ;
+    dbo:usedInCountry dbr:Korea_The_Republic_Of ;
+    exont:currencyType "fiat" ;
+    exont:populationUsing 52000000 ;
+    lexvo:language <http://lexvo.org/id/iso639-3/kor> ;
+    schema1:currencySymbol "₩" .
+
+ex:KWD a dbo:Currency ;
+    rdfs:label "Kuwaiti Dinar",
+        "دينار كويتي"@ar ;
+    dbo:authority "Central Bank of Kuwait" ;
+    dbo:isoCode "KWD" ;
+    dbo:isoCodeNumeric 414 ;
+    dbo:usedInCountry dbr:Kuwait ;
+    exont:currencyType "fiat" ;
+    exont:minorUnit "fils" ;
+    exont:populationUsing 4300000 ;
+    lexvo:language <http://lexvo.org/id/iso639-3/ara> ;
+    schema1:currencySymbol "د.ك" .
+
+ex:KYD a dbo:Currency ;
+    rdfs:label "Cayman Islands Dollar",
+        "Cayman Islands Dollar"@en ;
+    dbo:authority "Cayman Islands Monetary Authority" ;
+    dbo:isoCode "KYD" ;
+    dbo:isoCodeNumeric 136 ;
+    dbo:usedInCountry dbr:Cayman_Islands ;
+    exont:currencyType "fiat" ;
+    exont:minorUnit "cent" ;
+    exont:populationUsing 66000 ;
+    lexvo:language <http://lexvo.org/id/iso639-3/eng> ;
+    schema1:currencySymbol "$" .
+
+ex:KZT a dbo:Currency ;
+    rdfs:label "Tenge",
+        "Теңге"@ka ;
+    dbo:authority "National Bank of Kazakhstan" ;
+    dbo:isoCode "KZT" ;
+    dbo:isoCodeNumeric 398 ;
+    dbo:usedInCountry dbr:Kazakhstan ;
+    exont:currencyType "fiat" ;
+    exont:minorUnit "tiyn" ;
+    exont:populationUsing 19000000 ;
+    lexvo:language <http://lexvo.org/id/iso639-3/kaz> ;
+    schema1:currencySymbol "₸" .
+
+ex:LAK a dbo:Currency ;
+    rdfs:label "Lao Kip",
+        "ກີບ"@la ;
+    dbo:authority "Bank of the Lao P.D.R." ;
+    dbo:isoCode "LAK" ;
+    dbo:isoCodeNumeric 418 ;
+    dbo:usedInCountry dbr:Lao_People%E2%80%99S_Democratic_Republic ;
+    exont:currencyType "fiat" ;
+    exont:minorUnit "att" ;
+    exont:populationUsing 7200000 ;
+    lexvo:language <http://lexvo.org/id/iso639-3/lao> ;
+    schema1:currencySymbol "₭" .
+
+ex:LBP a dbo:Currency ;
+    rdfs:label "Lebanese Pound",
+        "ليرة لبنانية"@ar ;
+    dbo:authority "Banque du Liban" ;
+    dbo:isoCode "LBP" ;
+    dbo:isoCodeNumeric 422 ;
+    dbo:usedInCountry dbr:Lebanon ;
+    exont:currencyType "fiat" ;
+    exont:minorUnit "piastre" ;
+    exont:populationUsing 6800000 ;
+    lexvo:language <http://lexvo.org/id/iso639-3/ara> ;
+    schema1:currencySymbol "ل.ل" .
+
+ex:LKR a dbo:Currency ;
+    rdfs:label "Sri Lanka Rupee",
+        "රුපියල්"@si ;
+    dbo:authority "Central Bank of Sri Lanka" ;
+    dbo:isoCode "LKR" ;
+    dbo:isoCodeNumeric 144 ;
+    dbo:usedInCountry dbr:Sri_Lanka ;
+    exont:currencyType "fiat" ;
+    exont:minorUnit "cent" ;
+    exont:populationUsing 22000000 ;
+    lexvo:language <http://lexvo.org/id/iso639-3/sin> ;
+    schema1:currencySymbol "₨" .
+
+ex:LRD a dbo:Currency ;
+    rdfs:label "Liberian Dollar",
+        "Liberian Dollar"@en ;
+    dbo:authority "Central Bank of Liberia" ;
+    dbo:isoCode "LRD" ;
+    dbo:isoCodeNumeric 430 ;
+    dbo:usedInCountry dbr:Liberia ;
+    exont:currencyType "fiat" ;
+    exont:minorUnit "cent" ;
+    exont:populationUsing 5100000 ;
+    lexvo:language <http://lexvo.org/id/iso639-3/eng> ;
+    schema1:currencySymbol "$" .
+
+ex:LSL a dbo:Currency ;
+    rdfs:label "Loti",
+        "Loti"@en ;
+    dbo:authority "Central Bank of Lesotho" ;
+    dbo:isoCode "LSL" ;
+    dbo:isoCodeNumeric 426 ;
+    dbo:usedInCountry dbr:Lesotho ;
+    exont:currencyType "fiat" ;
+    exont:minorUnit "sente" ;
+    exont:populationUsing 2100000 ;
+    lexvo:language <http://lexvo.org/id/iso639-3/eng> ;
+    schema1:currencySymbol "L" .
+
+ex:LYD a dbo:Currency ;
+    rdfs:label "Libyan Dinar",
+        "دينار ليبي"@ar ;
+    dbo:authority "Central Bank of Libya" ;
+    dbo:isoCode "LYD" ;
+    dbo:isoCodeNumeric 434 ;
+    dbo:usedInCountry dbr:Libya ;
+    exont:currencyType "fiat" ;
+    exont:minorUnit "dirham" ;
+    exont:populationUsing 7000000 ;
+    lexvo:language <http://lexvo.org/id/iso639-3/ara> ;
+    schema1:currencySymbol "ل.د" .
+
+ex:MAD a dbo:Currency ;
+    rdfs:label "Moroccan Dirham",
+        "درهم مغربي"@ar ;
+    dbo:authority "Bank Al-Maghrib" ;
+    dbo:isoCode "MAD" ;
+    dbo:isoCodeNumeric 504 ;
+    dbo:usedInCountry dbr:Morocco,
+        dbr:Western_Sahara ;
+    exont:currencyType "fiat" ;
+    exont:minorUnit "centime" ;
+    exont:populationUsing 37000000 ;
+    lexvo:language <http://lexvo.org/id/iso639-3/ara> ;
+    schema1:currencySymbol "د.م." .
+
+ex:MDL a dbo:Currency ;
+    rdfs:label "Moldovan Leu",
+        "Leu Moldovenesc"@ro ;
+    dbo:authority "National Bank of Moldova" ;
+    dbo:isoCode "MDL" ;
+    dbo:isoCodeNumeric 498 ;
+    dbo:usedInCountry dbr:Moldova_The_Republic_Of ;
+    exont:currencyType "fiat" ;
+    exont:minorUnit "ban" ;
+    exont:populationUsing 2600000 ;
+    lexvo:language <http://lexvo.org/id/iso639-3/ron> ;
+    schema1:currencySymbol "L" .
+
+ex:MGA a dbo:Currency ;
+    rdfs:label "Malagasy Ariary",
+        "Ariary"@ml ;
+    dbo:authority "Central Bank of Madagascar" ;
+    dbo:isoCode "MGA" ;
+    dbo:isoCodeNumeric 969 ;
+    dbo:usedInCountry dbr:Madagascar ;
+    exont:currencyType "fiat" ;
+    exont:minorUnit "iraimbilanja" ;
+    exont:populationUsing 28000000 ;
+    lexvo:language <http://lexvo.org/id/iso639-3/mlg> ;
+    schema1:currencySymbol "Ar" .
+
+ex:MKD a dbo:Currency ;
+    rdfs:label "Denar",
+        "Денар"@mk ;
+    dbo:authority "National Bank of the Republic of North Macedonia" ;
+    dbo:isoCode "MKD" ;
+    dbo:isoCodeNumeric 807 ;
+    dbo:usedInCountry dbr:North_Macedonia ;
+    exont:currencyType "fiat" ;
+    exont:minorUnit "deni" ;
+    exont:populationUsing 2100000 ;
+    lexvo:language <http://lexvo.org/id/iso639-3/mkd> ;
+    schema1:currencySymbol "ден" .
+
+ex:MMK a dbo:Currency ;
+    rdfs:label "Kyat",
+        "ကျပ်"@my ;
+    dbo:authority "Central Bank of Myanmar" ;
+    dbo:isoCode "MMK" ;
+    dbo:isoCodeNumeric 104 ;
+    dbo:usedInCountry dbr:Myanmar ;
+    exont:currencyType "fiat" ;
+    exont:minorUnit "pya" ;
+    exont:populationUsing 54000000 ;
+    lexvo:language <http://lexvo.org/id/iso639-3/mya> ;
+    schema1:currencySymbol "K" .
+
+ex:MNT a dbo:Currency ;
+    rdfs:label "Tugrik",
+        "Төгрөг"@mo ;
+    dbo:authority "Bank of Mongolia" ;
+    dbo:isoCode "MNT" ;
+    dbo:isoCodeNumeric 496 ;
+    dbo:usedInCountry dbr:Mongolia ;
+    exont:currencyType "fiat" ;
+    exont:minorUnit "möngö" ;
+    exont:populationUsing 3300000 ;
+    lexvo:language <http://lexvo.org/id/iso639-3/mon> ;
+    schema1:currencySymbol "₮" .
+
+ex:MOP a dbo:Currency ;
+    rdfs:label "Pataca",
+        "澳門元"@zh ;
+    dbo:authority "Monetary Authority of Macao" ;
+    dbo:isoCode "MOP" ;
+    dbo:isoCodeNumeric 446 ;
+    dbo:usedInCountry dbr:Macao ;
+    exont:currencyType "fiat" ;
+    exont:minorUnit "avo" ;
+    exont:populationUsing 680000 ;
+    lexvo:language <http://lexvo.org/id/iso639-3/zho> ;
+    schema1:currencySymbol "P" .
+
+ex:MRU a dbo:Currency ;
+    rdfs:label "Ouguiya",
+        "أوقية موريتانية"@ar ;
+    dbo:authority "Central Bank of Mauritania" ;
+    dbo:isoCode "MRU" ;
+    dbo:isoCodeNumeric 929 ;
+    dbo:usedInCountry dbr:Mauritania ;
+    exont:currencyType "fiat" ;
+    exont:minorUnit "khoums" ;
+    exont:populationUsing 4600000 ;
+    lexvo:language <http://lexvo.org/id/iso639-3/ara> ;
+    schema1:currencySymbol "UM" .
+
+ex:MUR a dbo:Currency ;
+    rdfs:label "Mauritius Rupee",
+        "Mauritian Rupee"@en ;
+    dbo:authority "Bank of Mauritius" ;
+    dbo:isoCode "MUR" ;
+    dbo:isoCodeNumeric 480 ;
+    dbo:usedInCountry dbr:Mauritius ;
+    exont:currencyType "fiat" ;
+    exont:minorUnit "cent" ;
+    exont:populationUsing 1300000 ;
+    lexvo:language <http://lexvo.org/id/iso639-3/eng> ;
+    schema1:currencySymbol "₨" .
+
+ex:MVR a dbo:Currency ;
+    rdfs:label "Rufiyaa",
+        "ރުފިޔާ"@di ;
+    dbo:authority "Maldives Monetary Authority" ;
+    dbo:isoCode "MVR" ;
+    dbo:isoCodeNumeric 462 ;
+    dbo:usedInCountry dbr:Maldives ;
+    exont:currencyType "fiat" ;
+    exont:minorUnit "laari" ;
+    exont:populationUsing 540000 ;
+    lexvo:language <http://lexvo.org/id/iso639-3/div> ;
+    schema1:currencySymbol "Rf" .
+
+ex:MWK a dbo:Currency ;
+    rdfs:label "Malawi Kwacha",
+        "Kwacha"@en ;
+    dbo:authority "Reserve Bank of Malawi" ;
+    dbo:isoCode "MWK" ;
+    dbo:isoCodeNumeric 454 ;
+    dbo:usedInCountry dbr:Malawi ;
+    exont:currencyType "fiat" ;
+    exont:minorUnit "tambala" ;
+    exont:populationUsing 19000000 ;
+    lexvo:language <http://lexvo.org/id/iso639-3/eng> ;
+    schema1:currencySymbol "MK" .
+
+ex:MXN a dbo:Currency ;
+    rdfs:label "Mexican Peso",
+        "Peso Mexicano"@sp ;
+    dbo:authority "Bank of Mexico" ;
+    dbo:isoCode "MXN" ;
+    dbo:isoCodeNumeric 484 ;
+    dbo:usedInCountry dbr:Mexico ;
+    exont:currencyType "fiat" ;
+    exont:minorUnit "centavo" ;
+    exont:populationUsing 126000000 ;
+    lexvo:language <http://lexvo.org/id/iso639-3/spa> ;
+    schema1:currencySymbol "$" .
+
+ex:MXV a dbo:Currency ;
+    rdfs:label "Mexican Unidad de Inversion (UDI)",
+        "Unidad de Inversión"@sp ;
+    dbo:isoCode "MXV" ;
+    dbo:isoCodeNumeric 979 ;
+    dbo:usedInCountry dbr:Mexico ;
+    exont:currencyType "fiat" ;
+    exont:populationUsing 126000000 ;
+    lexvo:language <http://lexvo.org/id/iso639-3/spa> .
+
+ex:MYR a dbo:Currency ;
+    rdfs:label "Malaysian Ringgit",
+        "Ringgit Malaysia"@ms ;
+    dbo:authority "Central Bank of Malaysia" ;
+    dbo:isoCode "MYR" ;
+    dbo:isoCodeNumeric 458 ;
+    dbo:usedInCountry dbr:Malaysia ;
+    exont:currencyType "fiat" ;
+    exont:minorUnit "sen" ;
+    exont:populationUsing 33000000 ;
+    lexvo:language <http://lexvo.org/id/iso639-3/msa> ;
+    schema1:currencySymbol "RM" .
+
+ex:MZN a dbo:Currency ;
+    rdfs:label "Mozambique Metical",
+        "Metical"@po ;
+    dbo:authority "Bank of Mozambique" ;
+    dbo:isoCode "MZN" ;
+    dbo:isoCodeNumeric 943 ;
+    dbo:usedInCountry dbr:Mozambique ;
+    exont:currencyType "fiat" ;
+    exont:minorUnit "centavo" ;
+    exont:populationUsing 31000000 ;
+    lexvo:language <http://lexvo.org/id/iso639-3/por> ;
+    schema1:currencySymbol "MT" .
+
+ex:NAD a dbo:Currency ;
+    rdfs:label "Namibia Dollar",
+        "Namibian Dollar"@en ;
+    dbo:authority "Bank of Namibia" ;
+    dbo:isoCode "NAD" ;
+    dbo:isoCodeNumeric 516 ;
+    dbo:usedInCountry dbr:Namibia ;
+    exont:currencyType "fiat" ;
+    exont:minorUnit "cent" ;
+    exont:populationUsing 2500000 ;
+    lexvo:language <http://lexvo.org/id/iso639-3/eng> ;
+    schema1:currencySymbol "$" .
+
+ex:NGN a dbo:Currency ;
+    rdfs:label "Naira",
+        "Naira"@en ;
+    dbo:authority "Central Bank of Nigeria" ;
+    dbo:isoCode "NGN" ;
+    dbo:isoCodeNumeric 566 ;
+    dbo:usedInCountry dbr:Nigeria ;
+    exont:currencyType "fiat" ;
+    exont:minorUnit "kobo" ;
+    exont:populationUsing 206000000 ;
+    lexvo:language <http://lexvo.org/id/iso639-3/eng> ;
+    schema1:currencySymbol "₦" .
+
+ex:NIO a dbo:Currency ;
+    rdfs:label "Cordoba Oro",
+        "Córdoba"@sp ;
+    dbo:authority "Central Bank of Nicaragua" ;
+    dbo:isoCode "NIO" ;
+    dbo:isoCodeNumeric 558 ;
+    dbo:usedInCountry dbr:Nicaragua ;
+    exont:currencyType "fiat" ;
+    exont:populationUsing 6600000 ;
+    lexvo:language <http://lexvo.org/id/iso639-3/spa> ;
+    schema1:currencySymbol "C$" .
+
+ex:NOK a dbo:Currency ;
+    rdfs:label "Norwegian Krone",
+        "Norsk Krone"@no ;
+    dbo:authority "Norges Bank" ;
+    dbo:isoCode "NOK" ;
+    dbo:isoCodeNumeric 578 ;
+    dbo:usedInCountry dbr:Bouvet_Island,
+        dbr:Norway,
+        dbr:Svalbard_And_Jan_Mayen ;
+    exont:currencyType "fiat" ;
+    exont:minorUnit "øre" ;
+    exont:populationUsing 5400000 ;
+    lexvo:language <http://lexvo.org/id/iso639-3/nob> ;
+    schema1:currencySymbol "kr" .
+
+ex:NPR a dbo:Currency ;
+    rdfs:label "Nepalese Rupee",
+        "रुपैयाँ"@ne ;
+    dbo:authority "Nepal Rastra Bank" ;
+    dbo:isoCode "NPR" ;
+    dbo:isoCodeNumeric 524 ;
+    dbo:usedInCountry dbr:Nepal ;
+    exont:currencyType "fiat" ;
+    exont:minorUnit "paisa" ;
+    exont:populationUsing 30000000 ;
+    lexvo:language <http://lexvo.org/id/iso639-3/nep> ;
+    schema1:currencySymbol "₨" .
+
+ex:NZD a dbo:Currency ;
+    rdfs:label "New Zealand Dollar",
+        "New Zealand Dollar"@en ;
+    dbo:authority "Reserve Bank of New Zealand" ;
+    dbo:isoCode "NZD" ;
+    dbo:isoCodeNumeric 554 ;
+    dbo:usedInCountry dbr:Cook_Islands,
+        dbr:New_Zealand,
+        dbr:Niue,
+        dbr:Pitcairn,
+        dbr:Tokelau ;
+    exont:currencyType "fiat" ;
+    exont:minorUnit "cent" ;
+    exont:populationUsing 5000000 ;
+    lexvo:language <http://lexvo.org/id/iso639-3/eng> ;
+    schema1:currencySymbol "$" .
+
+ex:OMR a dbo:Currency ;
+    rdfs:label "Rial Omani",
+        "ريال عماني"@ar ;
+    dbo:authority "Central Bank of Oman" ;
+    dbo:isoCode "OMR" ;
+    dbo:isoCodeNumeric 512 ;
+    dbo:usedInCountry dbr:Oman ;
+    exont:currencyType "fiat" ;
+    exont:minorUnit "baisa" ;
+    exont:populationUsing 5100000 ;
+    lexvo:language <http://lexvo.org/id/iso639-3/ara> ;
+    schema1:currencySymbol "ر.ع." .
+
+ex:PAB a dbo:Currency ;
+    rdfs:label "Balboa",
+        "Balboa"@sp ;
+    dbo:authority "National Bank of Panama" ;
+    dbo:isoCode "PAB" ;
+    dbo:isoCodeNumeric 590 ;
+    dbo:usedInCountry dbr:Panama ;
+    exont:currencyType "fiat" ;
+    exont:minorUnit "centésimo" ;
+    exont:populationUsing 4300000 ;
+    lexvo:language <http://lexvo.org/id/iso639-3/spa> ;
+    schema1:currencySymbol "B/." .
+
+ex:PEN a dbo:Currency ;
+    rdfs:label "Sol",
+        "Sol"@sp ;
+    dbo:authority "Central Reserve Bank of Peru" ;
+    dbo:isoCode "PEN" ;
+    dbo:isoCodeNumeric 604 ;
+    dbo:usedInCountry dbr:Peru ;
+    exont:currencyType "fiat" ;
+    exont:minorUnit "céntimo" ;
+    exont:populationUsing 33000000 ;
+    lexvo:language <http://lexvo.org/id/iso639-3/spa> ;
+    schema1:currencySymbol "S/." .
+
+ex:PGK a dbo:Currency ;
+    rdfs:label "Kina",
+        "Kina"@en ;
+    dbo:authority "Bank of Papua New Guinea" ;
+    dbo:isoCode "PGK" ;
+    dbo:isoCodeNumeric 598 ;
+    dbo:usedInCountry dbr:Papua_New_Guinea ;
+    exont:currencyType "fiat" ;
+    exont:minorUnit "toea" ;
+    exont:populationUsing 9000000 ;
+    lexvo:language <http://lexvo.org/id/iso639-3/eng> ;
+    schema1:currencySymbol "K" .
+
+ex:PHP a dbo:Currency ;
+    rdfs:label "Philippine Peso",
+        "Piso"@tg ;
+    dbo:authority "Bangko Sentral ng Pilipinas" ;
+    dbo:isoCode "PHP" ;
+    dbo:isoCodeNumeric 608 ;
+    dbo:usedInCountry dbr:Philippines ;
+    exont:currencyType "fiat" ;
+    exont:minorUnit "sentimo" ;
+    exont:populationUsing 113000000 ;
+    lexvo:language <http://lexvo.org/id/iso639-3/tgl> ;
+    schema1:currencySymbol "₱" .
+
+ex:PKR a dbo:Currency ;
+    rdfs:label "Pakistan Rupee",
+        "روپیہ"@ur ;
+    dbo:authority "State Bank of Pakistan" ;
+    dbo:isoCode "PKR" ;
+    dbo:isoCodeNumeric 586 ;
+    dbo:usedInCountry dbr:Pakistan ;
+    exont:currencyType "fiat" ;
+    exont:minorUnit "paisa" ;
+    exont:populationUsing 220000000 ;
+    lexvo:language <http://lexvo.org/id/iso639-3/urd> ;
+    schema1:currencySymbol "₨" .
+
+ex:PLN a dbo:Currency ;
+    rdfs:label "Zloty",
+        "Złoty"@po ;
+    dbo:authority "National Bank of Poland" ;
+    dbo:isoCode "PLN" ;
+    dbo:isoCodeNumeric 985 ;
+    dbo:usedInCountry dbr:Poland ;
+    exont:currencyType "fiat" ;
+    exont:minorUnit "grosz" ;
+    exont:populationUsing 38000000 ;
+    lexvo:language <http://lexvo.org/id/iso639-3/pol> ;
+    schema1:currencySymbol "zł" .
+
+ex:PYG a dbo:Currency ;
+    rdfs:label "Guarani",
+        "Guaraní"@sp ;
+    dbo:authority "Central Bank of Paraguay" ;
+    dbo:isoCode "PYG" ;
+    dbo:isoCodeNumeric 600 ;
+    dbo:usedInCountry dbr:Paraguay ;
+    exont:currencyType "fiat" ;
+    exont:minorUnit "céntimo" ;
+    exont:populationUsing 7100000 ;
+    lexvo:language <http://lexvo.org/id/iso639-3/spa> ;
+    schema1:currencySymbol "Gs" .
+
+ex:QAR a dbo:Currency ;
+    rdfs:label "Qatari Rial",
+        "ريال قطري"@ar ;
+    dbo:authority "Qatar Central Bank" ;
+    dbo:isoCode "QAR" ;
+    dbo:isoCodeNumeric 634 ;
+    dbo:usedInCountry dbr:Qatar ;
+    exont:currencyType "fiat" ;
+    exont:minorUnit "dirham" ;
+    exont:populationUsing 2800000 ;
+    lexvo:language <http://lexvo.org/id/iso639-3/ara> ;
+    schema1:currencySymbol "ر.ق" .
+
+ex:RON a dbo:Currency ;
+    rdfs:label "Romanian Leu",
+        "Leu"@ro ;
+    dbo:authority "National Bank of Romania" ;
+    dbo:isoCode "RON" ;
+    dbo:isoCodeNumeric 946 ;
+    dbo:usedInCountry dbr:Romania ;
+    exont:currencyType "fiat" ;
+    exont:minorUnit "bani" ;
+    exont:populationUsing 19000000 ;
+    lexvo:language <http://lexvo.org/id/iso639-3/ron> ;
+    schema1:currencySymbol "lei" .
+
+ex:RSD a dbo:Currency ;
+    rdfs:label "Serbian Dinar",
+        "Динар"@sr ;
+    dbo:authority "National Bank of Serbia" ;
+    dbo:isoCode "RSD" ;
+    dbo:isoCodeNumeric 941 ;
+    dbo:usedInCountry dbr:Serbia ;
+    exont:currencyType "fiat" ;
+    exont:minorUnit "para" ;
+    exont:populationUsing 6900000 ;
+    lexvo:language <http://lexvo.org/id/iso639-3/srp> ;
+    schema1:currencySymbol "дин." .
+
+ex:RUB a dbo:Currency ;
+    rdfs:label "Russian Ruble",
+        "Рубль"@ru ;
+    dbo:authority "Central Bank of the Russian Federation" ;
+    dbo:isoCode "RUB" ;
+    dbo:isoCodeNumeric 643 ;
+    dbo:usedInCountry dbr:Russian_Federation ;
+    exont:currencyType "fiat" ;
+    exont:minorUnit "kopeck" ;
+    exont:populationUsing 146000000 ;
+    lexvo:language <http://lexvo.org/id/iso639-3/rus> ;
+    schema1:currencySymbol "₽" .
+
+ex:RWF a dbo:Currency ;
+    rdfs:label "Rwanda Franc",
+        "Franc Rwandais"@ki ;
+    dbo:authority "National Bank of Rwanda" ;
+    dbo:isoCode "RWF" ;
+    dbo:isoCodeNumeric 646 ;
+    dbo:usedInCountry dbr:Rwanda ;
+    exont:currencyType "fiat" ;
+    exont:minorUnit "centime" ;
+    exont:populationUsing 13000000 ;
+    lexvo:language <http://lexvo.org/id/iso639-3/kin> ;
+    schema1:currencySymbol "FRw" .
+
+ex:SAR a dbo:Currency ;
+    rdfs:label "Saudi Riyal",
+        "ريال سعودي"@ar ;
+    dbo:authority "Saudi Central Bank" ;
+    dbo:isoCode "SAR" ;
+    dbo:isoCodeNumeric 682 ;
+    dbo:usedInCountry dbr:Saudi_Arabia ;
+    exont:currencyType "fiat" ;
+    exont:minorUnit "halala" ;
+    exont:populationUsing 35000000 ;
+    lexvo:language <http://lexvo.org/id/iso639-3/ara> ;
+    schema1:currencySymbol "ر.س" .
+
+ex:SBD a dbo:Currency ;
+    rdfs:label "Solomon Islands Dollar",
+        "Solomon Islands Dollar"@en ;
+    dbo:authority "Central Bank of Solomon Islands" ;
+    dbo:isoCode "SBD" ;
+    dbo:isoCodeNumeric 90 ;
+    dbo:usedInCountry dbr:Solomon_Islands ;
+    exont:currencyType "fiat" ;
+    exont:minorUnit "cent" ;
+    exont:populationUsing 700000 ;
+    lexvo:language <http://lexvo.org/id/iso639-3/eng> ;
+    schema1:currencySymbol "$" .
+
+ex:SCR a dbo:Currency ;
+    rdfs:label "Seychelles Rupee",
+        "Seychellois Rupee"@en ;
+    dbo:authority "Central Bank of Seychelles" ;
+    dbo:isoCode "SCR" ;
+    dbo:isoCodeNumeric 690 ;
+    dbo:usedInCountry dbr:Seychelles ;
+    exont:currencyType "fiat" ;
+    exont:minorUnit "cent" ;
+    exont:populationUsing 98000 ;
+    lexvo:language <http://lexvo.org/id/iso639-3/eng> ;
+    schema1:currencySymbol "₨" .
+
+ex:SDG a dbo:Currency ;
+    rdfs:label "Sudanese Pound",
+        "جنيه سوداني"@ar ;
+    dbo:authority "Central Bank of Sudan" ;
+    dbo:isoCode "SDG" ;
+    dbo:isoCodeNumeric 938 ;
+    dbo:usedInCountry dbr:Sudan ;
+    exont:currencyType "fiat" ;
+    exont:minorUnit "piastre" ;
+    exont:populationUsing 44000000 ;
+    lexvo:language <http://lexvo.org/id/iso639-3/ara> ;
+    schema1:currencySymbol "ج.س." .
+
+ex:SEK a dbo:Currency ;
+    rdfs:label "Swedish Krona",
+        "Svensk Krona"@sw ;
+    dbo:authority "Sveriges Riksbank" ;
+    dbo:isoCode "SEK" ;
+    dbo:isoCodeNumeric 752 ;
+    dbo:usedInCountry dbr:Sweden ;
+    exont:currencyType "fiat" ;
+    exont:minorUnit "öre" ;
+    exont:populationUsing 10000000 ;
+    lexvo:language <http://lexvo.org/id/iso639-3/swe> ;
+    schema1:currencySymbol "kr" .
+
+ex:SGD a dbo:Currency ;
+    rdfs:label "Singapore Dollar",
+        "Singapore Dollar"@en ;
+    dbo:authority "Monetary Authority of Singapore" ;
+    dbo:isoCode "SGD" ;
+    dbo:isoCodeNumeric 702 ;
+    dbo:usedInCountry dbr:Singapore ;
+    exont:currencyType "fiat" ;
+    exont:minorUnit "cent" ;
+    exont:populationUsing 5700000 ;
+    lexvo:language <http://lexvo.org/id/iso639-3/eng> ;
+    schema1:currencySymbol "$" .
+
+ex:SHP a dbo:Currency ;
+    rdfs:label "Saint Helena Pound",
+        "Saint Helena Pound"@en ;
+    dbo:authority "Government of Saint Helena" ;
+    dbo:isoCode "SHP" ;
+    dbo:isoCodeNumeric 654 ;
+    dbo:usedInCountry dbr:Saint_Helena_Ascension_And_Tristan_Da_Cunha ;
+    exont:currencyType "fiat" ;
+    exont:minorUnit "penny" ;
+    exont:populationUsing 6000 ;
+    lexvo:language <http://lexvo.org/id/iso639-3/eng> ;
+    schema1:currencySymbol "£" .
+
+ex:SLE a dbo:Currency ;
+    rdfs:label "Leone",
+        "Leone"@en ;
+    dbo:authority "Bank of Sierra Leone" ;
+    dbo:isoCode "SLE" ;
+    dbo:isoCodeNumeric 925 ;
+    dbo:usedInCountry dbr:Sierra_Leone ;
+    exont:currencyType "fiat" ;
+    exont:minorUnit "cent" ;
+    exont:populationUsing 8000000 ;
+    lexvo:language <http://lexvo.org/id/iso639-3/eng> ;
+    schema1:currencySymbol "Le" .
+
+ex:SOS a dbo:Currency ;
+    rdfs:label "Somali Shilling",
+        "Shilin Soomaali"@so ;
+    dbo:authority "Central Bank of Somalia" ;
+    dbo:isoCode "SOS" ;
+    dbo:isoCodeNumeric 706 ;
+    dbo:usedInCountry dbr:Somalia ;
+    exont:currencyType "fiat" ;
+    exont:minorUnit "cent" ;
+    exont:populationUsing 16000000 ;
+    lexvo:language <http://lexvo.org/id/iso639-3/som> ;
+    schema1:currencySymbol "Sh" .
+
+ex:SRD a dbo:Currency ;
+    rdfs:label "Surinam Dollar",
+        "Surinaamse Dollar"@nl ;
+    dbo:authority "Central Bank of Suriname" ;
+    dbo:isoCode "SRD" ;
+    dbo:isoCodeNumeric 968 ;
+    dbo:usedInCountry dbr:Suriname ;
+    exont:currencyType "fiat" ;
+    exont:minorUnit "cent" ;
+    exont:populationUsing 590000 ;
+    lexvo:language <http://lexvo.org/id/iso639-3/nld> ;
+    schema1:currencySymbol "$" .
+
+ex:SSP a dbo:Currency ;
+    rdfs:label "South Sudanese Pound",
+        "South Sudanese Pound"@en ;
+    dbo:authority "Bank of South Sudan" ;
+    dbo:isoCode "SSP" ;
+    dbo:isoCodeNumeric 728 ;
+    dbo:usedInCountry dbr:South_Sudan ;
+    exont:currencyType "fiat" ;
+    exont:minorUnit "piaster" ;
+    exont:populationUsing 11000000 ;
+    lexvo:language <http://lexvo.org/id/iso639-3/eng> ;
+    schema1:currencySymbol "£" .
+
+ex:STN a dbo:Currency ;
+    rdfs:label "Dobra",
+        "Dobra"@po ;
+    dbo:authority "Banco Central de São Tomé e Príncipe" ;
+    dbo:isoCode "STN" ;
+    dbo:isoCodeNumeric 930 ;
+    dbo:usedInCountry dbr:Sao_Tome_And_Principe ;
+    exont:currencyType "fiat" ;
+    exont:populationUsing 220000 ;
+    lexvo:language <http://lexvo.org/id/iso639-3/por> ;
+    schema1:currencySymbol "Db" .
+
+ex:SVC a dbo:Currency ;
+    rdfs:label "El Salvador Colon",
+        "Colón Salvadoreño"@sp ;
+    dbo:authority "Central Reserve Bank of El Salvador" ;
+    dbo:isoCode "SVC" ;
+    dbo:isoCodeNumeric 222 ;
+    dbo:usedInCountry dbr:El_Salvador ;
+    exont:currencyType "fiat" ;
+    exont:minorUnit "centavo" ;
+    exont:populationUsing 6500000 ;
+    lexvo:language <http://lexvo.org/id/iso639-3/spa> ;
+    schema1:currencySymbol "$" .
+
+ex:SYP a dbo:Currency ;
+    rdfs:label "Syrian Pound",
+        "ليرة سورية"@ar ;
+    dbo:authority "Central Bank of Syria" ;
+    dbo:isoCode "SYP" ;
+    dbo:isoCodeNumeric 760 ;
+    dbo:usedInCountry dbr:Syrian_Arab_Republic ;
+    exont:currencyType "fiat" ;
+    exont:minorUnit "piastre" ;
+    exont:populationUsing 18000000 ;
+    lexvo:language <http://lexvo.org/id/iso639-3/ara> ;
+    schema1:currencySymbol "£" .
+
+ex:SZL a dbo:Currency ;
+    rdfs:label "Lilangeni",
+        "Lilangeni"@en ;
+    dbo:authority "Central Bank of Eswatini" ;
+    dbo:isoCode "SZL" ;
+    dbo:isoCodeNumeric 748 ;
+    dbo:usedInCountry dbr:Eswatini ;
+    exont:currencyType "fiat" ;
+    exont:minorUnit "cent" ;
+    exont:populationUsing 1200000 ;
+    lexvo:language <http://lexvo.org/id/iso639-3/eng> ;
+    schema1:currencySymbol "E" .
+
+ex:THB a dbo:Currency ;
+    rdfs:label "Baht",
+        "บาท"@th ;
+    dbo:authority "Bank of Thailand" ;
+    dbo:isoCode "THB" ;
+    dbo:isoCodeNumeric 764 ;
+    dbo:usedInCountry dbr:Thailand ;
+    exont:currencyType "fiat" ;
+    exont:minorUnit "satang" ;
+    exont:populationUsing 70000000 ;
+    lexvo:language <http://lexvo.org/id/iso639-3/tha> ;
+    schema1:currencySymbol "฿" .
+
+ex:TJS a dbo:Currency ;
+    rdfs:label "Somoni",
+        "Сомонӣ"@tg ;
+    dbo:authority "National Bank of Tajikistan" ;
+    dbo:isoCode "TJS" ;
+    dbo:isoCodeNumeric 972 ;
+    dbo:usedInCountry dbr:Tajikistan ;
+    exont:currencyType "fiat" ;
+    exont:minorUnit "diram" ;
+    exont:populationUsing 9600000 ;
+    lexvo:language <http://lexvo.org/id/iso639-3/tgk> ;
+    schema1:currencySymbol "ЅM" .
+
+ex:TMT a dbo:Currency ;
+    rdfs:label "Turkmenistan New Manat",
+        "Manat"@tu ;
+    dbo:authority "Central Bank of Turkmenistan" ;
+    dbo:isoCode "TMT" ;
+    dbo:isoCodeNumeric 934 ;
+    dbo:usedInCountry dbr:Turkmenistan ;
+    exont:currencyType "fiat" ;
+    exont:minorUnit "tenge" ;
+    exont:populationUsing 6000000 ;
+    lexvo:language <http://lexvo.org/id/iso639-3/tuk> ;
+    schema1:currencySymbol "m" .
+
+ex:TND a dbo:Currency ;
+    rdfs:label "Tunisian Dinar",
+        "دينار تونسي"@ar ;
+    dbo:authority "Central Bank of Tunisia" ;
+    dbo:isoCode "TND" ;
+    dbo:isoCodeNumeric 788 ;
+    dbo:usedInCountry dbr:Tunisia ;
+    exont:currencyType "fiat" ;
+    exont:minorUnit "millime" ;
+    exont:populationUsing 12000000 ;
+    lexvo:language <http://lexvo.org/id/iso639-3/ara> ;
+    schema1:currencySymbol "د.ت" .
+
+ex:TOP a dbo:Currency ;
+    rdfs:label "Pa’anga",
+        "Paʻanga"@to ;
+    dbo:authority "National Reserve Bank of Tonga" ;
+    dbo:isoCode "TOP" ;
+    dbo:isoCodeNumeric 776 ;
+    dbo:usedInCountry dbr:Tonga ;
+    exont:currencyType "fiat" ;
+    exont:minorUnit "seniti" ;
+    exont:populationUsing 105000 ;
+    lexvo:language <http://lexvo.org/id/iso639-3/ton> ;
+    schema1:currencySymbol "T$" .
+
+ex:TRY a dbo:Currency ;
+    rdfs:label "Turkish Lira",
+        "Türk Lirası"@tu ;
+    dbo:authority "Central Bank of the Republic of Turkey" ;
+    dbo:isoCode "TRY" ;
+    dbo:isoCodeNumeric 949 ;
+    dbo:usedInCountry dbr:TüRki̇Ye ;
+    exont:currencyType "fiat" ;
+    exont:minorUnit "kuruş" ;
+    exont:populationUsing 84000000 ;
+    lexvo:language <http://lexvo.org/id/iso639-3/tur> ;
+    schema1:currencySymbol "₺" .
+
+ex:TTD a dbo:Currency ;
+    rdfs:label "Trinidad and Tobago Dollar",
+        "Trinidad and Tobago Dollar"@en ;
+    dbo:authority "Central Bank of Trinidad and Tobago" ;
+    dbo:isoCode "TTD" ;
+    dbo:isoCodeNumeric 780 ;
+    dbo:usedInCountry dbr:Trinidad_And_Tobago ;
+    exont:currencyType "fiat" ;
+    exont:minorUnit "cent" ;
+    exont:populationUsing 1400000 ;
+    lexvo:language <http://lexvo.org/id/iso639-3/eng> ;
+    schema1:currencySymbol "$" .
+
+ex:TWD a dbo:Currency ;
+    rdfs:label "New Taiwan Dollar",
+        "新臺幣"@zh ;
+    dbo:authority "Central Bank of the Republic of China (Taiwan)" ;
+    dbo:isoCode "TWD" ;
+    dbo:isoCodeNumeric 901 ;
+    dbo:usedInCountry dbr:Taiwan_Province_Of_China ;
+    exont:currencyType "fiat" ;
+    exont:minorUnit "cent" ;
+    exont:populationUsing 23500000 ;
+    lexvo:language <http://lexvo.org/id/iso639-3/zho> ;
+    schema1:currencySymbol "$" .
+
+ex:TZS a dbo:Currency ;
+    rdfs:label "Tanzanian Shilling",
+        "Shilingi"@sw ;
+    dbo:authority "Bank of Tanzania" ;
+    dbo:isoCode "TZS" ;
+    dbo:isoCodeNumeric 834 ;
+    dbo:usedInCountry dbr:Tanzania_United_Republic_Of ;
+    exont:currencyType "fiat" ;
+    exont:minorUnit "senti" ;
+    exont:populationUsing 61000000 ;
+    lexvo:language <http://lexvo.org/id/iso639-3/swa> ;
+    schema1:currencySymbol "Sh" .
+
+ex:UAH a dbo:Currency ;
+    rdfs:label "Hryvnia",
+        "Гривня"@uk ;
+    dbo:authority "National Bank of Ukraine" ;
+    dbo:isoCode "UAH" ;
+    dbo:isoCodeNumeric 980 ;
+    dbo:usedInCountry dbr:Ukraine ;
+    exont:currencyType "fiat" ;
+    exont:minorUnit "kopiyka" ;
+    exont:populationUsing 41000000 ;
+    lexvo:language <http://lexvo.org/id/iso639-3/ukr> ;
+    schema1:currencySymbol "₴" .
+
+ex:UGX a dbo:Currency ;
+    rdfs:label "Uganda Shilling",
+        "Shilling"@en ;
+    dbo:authority "Bank of Uganda" ;
+    dbo:isoCode "UGX" ;
+    dbo:isoCodeNumeric 800 ;
+    dbo:usedInCountry dbr:Uganda ;
+    exont:currencyType "fiat" ;
+    exont:minorUnit "cent" ;
+    exont:populationUsing 47000000 ;
+    lexvo:language <http://lexvo.org/id/iso639-3/eng> ;
+    schema1:currencySymbol "USh" .
+
+ex:USD a dbo:Currency ;
+    rdfs:label "US Dollar",
+        "United States Dollar"@en ;
+    dbo:authority "Federal Reserve System" ;
+    dbo:isoCode "USD" ;
+    dbo:isoCodeNumeric 840 ;
+    dbo:usedInCountry dbr:American_Samoa,
+        dbr:Bonaire_Sint_Eustatius_And_Saba,
+        dbr:British_Indian_Ocean_Territory,
+        dbr:Ecuador,
+        dbr:El_Salvador,
+        dbr:Guam,
+        dbr:Haiti,
+        dbr:Marshall_Islands,
+        dbr:Micronesia_Federated_States_Of,
+        dbr:Northern_Mariana_Islands,
+        dbr:Palau,
+        dbr:Panama,
+        dbr:Puerto_Rico,
+        dbr:Timor-Leste,
+        dbr:Turks_And_Caicos_Islands,
+        dbr:United_States_Minor_Outlying_Islands,
+        dbr:United_States_Of_America,
+        dbr:Virgin_Islands,
+        <http://dbpedia.org/resource/Virgin_Islands_U.S.> ;
+    exont:currencyType "fiat" ;
+    exont:minorUnit "cent" ;
+    exont:populationUsing 330000000 ;
+    lexvo:language <http://lexvo.org/id/iso639-3/eng> ;
+    schema1:currencySymbol "$" .
+
+ex:USN a dbo:Currency ;
+    rdfs:label "US Dollar (Next day)" ;
+    dbo:authority "Federal Reserve System" ;
+    dbo:isoCode "USN" ;
+    dbo:isoCodeNumeric 997 ;
+    dbo:usedInCountry dbr:United_States_Of_America ;
+    exont:currencyType "fiat" ;
+    exont:minorUnit "cent" ;
+    exont:populationUsing 330000000 ;
+    lexvo:language <http://lexvo.org/id/iso639-3/eng> ;
+    schema1:currencySymbol "$" .
+
+ex:UYI a dbo:Currency ;
+    rdfs:label "Uruguay Peso en Unidades Indexadas (UI)" ;
+    dbo:isoCode "UYI" ;
+    dbo:isoCodeNumeric 940 ;
+    dbo:usedInCountry dbr:Uruguay ;
+    exont:currencyType "fiat" ;
+    exont:populationUsing 3500000 ;
+    lexvo:language <http://lexvo.org/id/iso639-3/spa> .
+
+ex:UYU a dbo:Currency ;
+    rdfs:label "Peso Uruguayo",
+        "Peso Uruguayo"@sp ;
+    dbo:authority "Central Bank of Uruguay" ;
+    dbo:isoCode "UYU" ;
+    dbo:isoCodeNumeric 858 ;
+    dbo:usedInCountry dbr:Uruguay ;
+    exont:currencyType "fiat" ;
+    exont:minorUnit "centésimo" ;
+    exont:populationUsing 3500000 ;
+    lexvo:language <http://lexvo.org/id/iso639-3/spa> ;
+    schema1:currencySymbol "$U" .
+
+ex:UYW a dbo:Currency ;
+    rdfs:label "Unidad Previsional" ;
+    dbo:isoCode "UYW" ;
+    dbo:isoCodeNumeric 927 ;
+    dbo:usedInCountry dbr:Uruguay ;
+    exont:currencyType "fiat" ;
+    exont:populationUsing 3500000 ;
+    lexvo:language <http://lexvo.org/id/iso639-3/spa> .
+
+ex:UZS a dbo:Currency ;
+    rdfs:label "Uzbekistan Sum",
+        "So'm"@uz ;
+    dbo:authority "Central Bank of Uzbekistan" ;
+    dbo:isoCode "UZS" ;
+    dbo:isoCodeNumeric 860 ;
+    dbo:usedInCountry dbr:Uzbekistan ;
+    exont:currencyType "fiat" ;
+    exont:minorUnit "tiyin" ;
+    exont:populationUsing 34000000 ;
+    lexvo:language <http://lexvo.org/id/iso639-3/uzb> ;
+    schema1:currencySymbol "so'm" .
+
+ex:VED a dbo:Currency ;
+    rdfs:label "Bolívar Soberano",
+        "Bolívar Soberano"@sp ;
+    dbo:isoCode "VED" ;
+    dbo:isoCodeNumeric 926 ;
+    dbo:usedInCountry dbr:Venezuela_Bolivarian_Republic_Of ;
+    exont:currencyType "fiat" ;
+    exont:populationUsing 28000000 ;
+    lexvo:language <http://lexvo.org/id/iso639-3/spa> .
+
+ex:VES a dbo:Currency ;
+    rdfs:label "Bolívar Soberano",
+        "Bolívar Soberano"@sp ;
+    dbo:authority "Central Bank of Venezuela" ;
+    dbo:isoCode "VES" ;
+    dbo:isoCodeNumeric 928 ;
+    dbo:usedInCountry dbr:Venezuela_Bolivarian_Republic_Of ;
+    exont:currencyType "fiat" ;
+    exont:minorUnit "céntimo" ;
+    exont:populationUsing 28000000 ;
+    lexvo:language <http://lexvo.org/id/iso639-3/spa> ;
+    schema1:currencySymbol "Bs.S" .
+
+ex:VND a dbo:Currency ;
+    rdfs:label "Dong",
+        "Đồng"@vi ;
+    dbo:authority "State Bank of Vietnam" ;
+    dbo:isoCode "VND" ;
+    dbo:isoCodeNumeric 704 ;
+    dbo:usedInCountry dbr:Viet_Nam ;
+    exont:currencyType "fiat" ;
+    exont:minorUnit "hào" ;
+    exont:populationUsing 98000000 ;
+    lexvo:language <http://lexvo.org/id/iso639-3/vie> ;
+    schema1:currencySymbol "₫" .
+
+ex:VUV a dbo:Currency ;
+    rdfs:label "Vatu",
+        "Vatu"@bi ;
+    dbo:authority "Reserve Bank of Vanuatu" ;
+    dbo:isoCode "VUV" ;
+    dbo:isoCodeNumeric 548 ;
+    dbo:usedInCountry dbr:Vanuatu ;
+    exont:currencyType "fiat" ;
+    exont:populationUsing 310000 ;
+    lexvo:language <http://lexvo.org/id/iso639-3/bis> ;
+    schema1:currencySymbol "Vt" .
+
+ex:WST a dbo:Currency ;
+    rdfs:label "Tala",
+        "Tālā"@sm ;
+    dbo:authority "Central Bank of Samoa" ;
+    dbo:isoCode "WST" ;
+    dbo:isoCodeNumeric 882 ;
+    dbo:usedInCountry dbr:Samoa ;
+    exont:currencyType "fiat" ;
+    exont:minorUnit "sene" ;
+    exont:populationUsing 200000 ;
+    lexvo:language <http://lexvo.org/id/iso639-3/smo> ;
+    schema1:currencySymbol "WS$" .
+
+ex:XAD a dbo:Currency ;
+    rdfs:label "Arab Accounting Dinar" ;
+    dbo:isoCode "XAD" ;
+    dbo:isoCodeNumeric 396 ;
+    dbo:usedInCountry dbr:Arab_Monetary_Fund ;
+    exont:currencyType "virtual" ;
+    exont:populationUsing 0 .
+
+ex:XAF a dbo:Currency ;
+    rdfs:label "CFA Franc BEAC",
+        "Franc CFA BEAC"@fr ;
+    dbo:authority "Bank of Central African States" ;
+    dbo:isoCode "XAF" ;
+    dbo:isoCodeNumeric 950 ;
+    dbo:usedInCountry dbr:Cameroon,
+        dbr:Central_African_Republic,
+        dbr:Chad,
+        dbr:Congo,
+        dbr:Equatorial_Guinea,
+        dbr:Gabon ;
+    exont:currencyType "virtual" ;
+    exont:minorUnit "centime" ;
+    exont:populationUsing 55000000 ;
+    lexvo:language <http://lexvo.org/id/iso639-3/fra> ;
+    schema1:currencySymbol "FCFA" .
+
+ex:XAG a dbo:Currency ;
+    rdfs:label "Silver" ;
+    dbo:isoCode "XAG" ;
+    dbo:isoCodeNumeric 961 ;
+    dbo:usedInCountry dbr:Zz11_silver ;
+    exont:currencyType "commodity" ;
+    exont:populationUsing 0 .
+
+ex:XAU a dbo:Currency ;
+    rdfs:label "Gold" ;
+    dbo:isoCode "XAU" ;
+    dbo:isoCodeNumeric 959 ;
+    dbo:usedInCountry dbr:Zz08_gold ;
+    exont:currencyType "commodity" ;
+    exont:populationUsing 0 .
+
+ex:XBA a dbo:Currency ;
+    rdfs:label "Bond Markets Unit European Composite Unit (EURCO)" ;
+    dbo:isoCode "XBA" ;
+    dbo:isoCodeNumeric 955 ;
+    dbo:usedInCountry dbr:Zz01_bond_Markets_Unit_European_eurco ;
+    exont:currencyType "virtual" ;
+    exont:populationUsing 0 .
+
+ex:XBB a dbo:Currency ;
+    rdfs:label "Bond Markets Unit European Monetary Unit (E.M.U.-6)" ;
+    dbo:isoCode "XBB" ;
+    dbo:isoCodeNumeric 956 ;
+    dbo:usedInCountry dbr:Zz02_bond_Markets_Unit_European_emu-6 ;
+    exont:currencyType "virtual" ;
+    exont:populationUsing 0 .
+
+ex:XBC a dbo:Currency ;
+    rdfs:label "Bond Markets Unit European Unit of Account 9 (E.U.A.-9)" ;
+    dbo:isoCode "XBC" ;
+    dbo:isoCodeNumeric 957 ;
+    dbo:usedInCountry dbr:Zz03_bond_Markets_Unit_European_eua-9 ;
+    exont:currencyType "virtual" ;
+    exont:populationUsing 0 .
+
+ex:XBD a dbo:Currency ;
+    rdfs:label "Bond Markets Unit European Unit of Account 17 (E.U.A.-17)" ;
+    dbo:isoCode "XBD" ;
+    dbo:isoCodeNumeric 958 ;
+    dbo:usedInCountry dbr:Zz04_bond_Markets_Unit_European_eua-17 ;
+    exont:currencyType "virtual" ;
+    exont:populationUsing 0 .
+
+ex:XCD a dbo:Currency ;
+    rdfs:label "East Caribbean Dollar",
+        "East Caribbean Dollar"@en ;
+    dbo:authority "Eastern Caribbean Central Bank" ;
+    dbo:isoCode "XCD" ;
+    dbo:isoCodeNumeric 951 ;
+    dbo:usedInCountry dbr:Anguilla,
+        dbr:Antigua_And_Barbuda,
+        dbr:Dominica,
+        dbr:Grenada,
+        dbr:Montserrat,
+        dbr:Saint_Kitts_And_Nevis,
+        dbr:Saint_Lucia,
+        dbr:Saint_Vincent_And_The_Grenadines ;
+    exont:currencyType "virtual" ;
+    exont:minorUnit "cent" ;
+    exont:populationUsing 600000 ;
+    lexvo:language <http://lexvo.org/id/iso639-3/eng> ;
+    schema1:currencySymbol "$" .
+
+ex:XCG a dbo:Currency ;
+    rdfs:label "Caribbean Guilder" ;
+    dbo:isoCode "XCG" ;
+    dbo:isoCodeNumeric 532 ;
+    dbo:usedInCountry dbr:CuraçAo,
+        dbr:Sint_Maarten_Dutch_Part ;
+    exont:currencyType "virtual" ;
+    exont:populationUsing 0 .
+
+ex:XDR a dbo:Currency ;
+    rdfs:label "SDR (Special Drawing Right)" ;
+    dbo:authority "International Monetary Fund" ;
+    dbo:isoCode "XDR" ;
+    dbo:isoCodeNumeric 960 ;
+    dbo:usedInCountry dbr:International_Monetary_Fund ;
+    exont:currencyType "index" ;
+    exont:populationUsing 0 .
+
+ex:XOF a dbo:Currency ;
+    rdfs:label "CFA Franc BCEAO",
+        "Franc CFA BCEAO"@fr ;
+    dbo:authority "Central Bank of West African States" ;
+    dbo:isoCode "XOF" ;
+    dbo:isoCodeNumeric 952 ;
+    dbo:usedInCountry dbr:Benin,
+        dbr:Burkina_Faso,
+        dbr:CôTe_DIvoire,
+        dbr:Guinea-Bissau,
+        dbr:Mali,
+        dbr:Niger,
+        dbr:Senegal,
+        dbr:Togo ;
+    exont:currencyType "virtual" ;
+    exont:minorUnit "centime" ;
+    exont:populationUsing 134000000 ;
+    lexvo:language <http://lexvo.org/id/iso639-3/fra> ;
+    schema1:currencySymbol "CFA" .
+
+ex:XPD a dbo:Currency ;
+    rdfs:label "Palladium" ;
+    dbo:isoCode "XPD" ;
+    dbo:isoCodeNumeric 964 ;
+    dbo:usedInCountry dbr:Zz09_palladium ;
+    exont:currencyType "commodity" ;
+    exont:populationUsing 0 .
+
+ex:XPF a dbo:Currency ;
+    rdfs:label "CFP Franc",
+        "Franc CFP"@fr ;
+    dbo:authority "Institut d'émission d'Outre-Mer" ;
+    dbo:isoCode "XPF" ;
+    dbo:isoCodeNumeric 953 ;
+    dbo:usedInCountry dbr:French_Polynesia,
+        dbr:New_Caledonia,
+        dbr:Wallis_And_Futuna ;
+    exont:currencyType "virtual" ;
+    exont:minorUnit "centime" ;
+    exont:populationUsing 280000 ;
+    lexvo:language <http://lexvo.org/id/iso639-3/fra> ;
+    schema1:currencySymbol "₣" .
+
+ex:XPT a dbo:Currency ;
+    rdfs:label "Platinum" ;
+    dbo:isoCode "XPT" ;
+    dbo:isoCodeNumeric 962 ;
+    dbo:usedInCountry dbr:Zz10_platinum ;
+    exont:currencyType "commodity" ;
+    exont:populationUsing 0 .
+
+ex:XSU a dbo:Currency ;
+    rdfs:label "Sucre" ;
+    dbo:isoCode "XSU" ;
+    dbo:isoCodeNumeric 994 ;
+    dbo:usedInCountry dbr:SUCRE ;
+    exont:currencyType "virtual" ;
+    exont:populationUsing 0 .
+
+ex:XUA a dbo:Currency ;
+    rdfs:label "ADB Unit of Account" ;
+    dbo:isoCode "XUA" ;
+    dbo:isoCodeNumeric 965 ;
+    dbo:usedInCountry dbr:Member_Countries_Of_The_African_Development_Bank_Group ;
+    exont:currencyType "virtual" ;
+    exont:populationUsing 0 .
+
+ex:YER a dbo:Currency ;
+    rdfs:label "Yemeni Rial",
+        "ريال يمني"@ar ;
+    dbo:authority "Central Bank of Yemen" ;
+    dbo:isoCode "YER" ;
+    dbo:isoCodeNumeric 886 ;
+    dbo:usedInCountry dbr:Yemen ;
+    exont:currencyType "fiat" ;
+    exont:minorUnit "fils" ;
+    exont:populationUsing 30000000 ;
+    lexvo:language <http://lexvo.org/id/iso639-3/ara> ;
+    schema1:currencySymbol "﷼" .
+
+ex:ZAR a dbo:Currency ;
+    rdfs:label "Rand",
+        "Rand"@en ;
+    dbo:authority "South African Reserve Bank" ;
+    dbo:isoCode "ZAR" ;
+    dbo:isoCodeNumeric 710 ;
+    dbo:usedInCountry dbr:Lesotho,
+        dbr:Namibia,
+        dbr:South_Africa ;
+    exont:currencyType "fiat" ;
+    exont:minorUnit "cent" ;
+    exont:populationUsing 60000000 ;
+    lexvo:language <http://lexvo.org/id/iso639-3/eng> ;
+    schema1:currencySymbol "R" .
+
+ex:ZMW a dbo:Currency ;
+    rdfs:label "Zambian Kwacha",
+        "Zambian Kwacha"@en ;
+    dbo:authority "Bank of Zambia" ;
+    dbo:isoCode "ZMW" ;
+    dbo:isoCodeNumeric 967 ;
+    dbo:usedInCountry dbr:Zambia ;
+    exont:currencyType "fiat" ;
+    exont:minorUnit "ngwee" ;
+    exont:populationUsing 18000000 ;
+    lexvo:language <http://lexvo.org/id/iso639-3/eng> ;
+    schema1:currencySymbol "ZK" .
+
+ex:ZWG a dbo:Currency ;
+    rdfs:label "Zimbabwe Gold" ;
+    dbo:isoCode "ZWG" ;
+    dbo:isoCodeNumeric 924 ;
+    dbo:usedInCountry dbr:Zimbabwe ;
+    exont:currencyType "fiat" ;
+    exont:populationUsing 15000000 ;
+    lexvo:language <http://lexvo.org/id/iso639-3/eng> .
+
+dbr:Afghanistan a dbo:Country ;
+    rdfs:label "Afghanistan" ;
+    dbo:continent dbr:Asia .
+
+dbr:Albania a dbo:Country ;
+    rdfs:label "Albania" ;
+    dbo:continent dbr:Europe .
+
+dbr:Algeria a dbo:Country ;
+    rdfs:label "Algeria" ;
+    dbo:continent dbr:Africa .
+
+dbr:American_Samoa a dbo:Country ;
+    rdfs:label "American_Samoa" ;
+    dbo:continent dbr:North_America .
+
+dbr:Andorra a dbo:Country ;
+    rdfs:label "Andorra" ;
+    dbo:continent dbr:Europe .
+
+dbr:Angola a dbo:Country ;
+    rdfs:label "Angola" ;
+    dbo:continent dbr:Africa .
+
+dbr:Anguilla a dbo:Country ;
+    rdfs:label "Anguilla" ;
+    dbo:continent dbr:North_America .
+
+dbr:Antigua_And_Barbuda a dbo:Country ;
+    rdfs:label "Antigua_And_Barbuda" ;
+    dbo:continent dbr:North_America .
+
+dbr:Arab_Monetary_Fund a dbo:Country ;
+    rdfs:label "Arab_Monetary_Fund" .
+
+dbr:Argentina a dbo:Country ;
+    rdfs:label "Argentina" ;
+    dbo:continent dbr:South_America .
+
+dbr:Armenia a dbo:Country ;
+    rdfs:label "Armenia" ;
+    dbo:continent dbr:Asia .
+
+dbr:Aruba a dbo:Country ;
+    rdfs:label "Aruba" ;
+    dbo:continent dbr:North_America .
+
+dbr:Australia a dbo:Country ;
+    rdfs:label "Australia" ;
+    dbo:continent dbr:Oceania .
+
+dbr:Austria a dbo:Country ;
+    rdfs:label "Austria" ;
+    dbo:continent dbr:Europe .
+
+dbr:Azerbaijan a dbo:Country ;
+    rdfs:label "Azerbaijan" ;
+    dbo:continent dbr:Asia .
+
+dbr:Bahamas a dbo:Country ;
+    rdfs:label "Bahamas" ;
+    dbo:continent dbr:North_America .
+
+dbr:Bahrain a dbo:Country ;
+    rdfs:label "Bahrain" ;
+    dbo:continent dbr:Asia .
+
+dbr:Bangladesh a dbo:Country ;
+    rdfs:label "Bangladesh" ;
+    dbo:continent dbr:Asia .
+
+dbr:Barbados a dbo:Country ;
+    rdfs:label "Barbados" ;
+    dbo:continent dbr:North_America .
+
+dbr:Belarus a dbo:Country ;
+    rdfs:label "Belarus" ;
+    dbo:continent dbr:Europe .
+
+dbr:Belgium a dbo:Country ;
+    rdfs:label "Belgium" ;
+    dbo:continent dbr:Europe .
+
+dbr:Belize a dbo:Country ;
+    rdfs:label "Belize" ;
+    dbo:continent dbr:North_America .
+
+dbr:Benin a dbo:Country ;
+    rdfs:label "Benin" ;
+    dbo:continent dbr:Africa .
+
+dbr:Bermuda a dbo:Country ;
+    rdfs:label "Bermuda" ;
+    dbo:continent dbr:North_America .
+
+dbr:Bonaire_Sint_Eustatius_And_Saba a dbo:Country ;
+    rdfs:label "Bonaire,_Sint_Eustatius_And_Saba" ;
+    dbo:continent dbr:North_America .
+
+dbr:Bosnia_And_Herzegovina a dbo:Country ;
+    rdfs:label "Bosnia_And_Herzegovina" ;
+    dbo:continent dbr:Europe .
+
+dbr:Botswana a dbo:Country ;
+    rdfs:label "Botswana" ;
+    dbo:continent dbr:Africa .
+
+dbr:Bouvet_Island a dbo:Country ;
+    rdfs:label "Bouvet_Island" ;
+    dbo:continent dbr:Europe .
+
+dbr:Brazil a dbo:Country ;
+    rdfs:label "Brazil" ;
+    dbo:continent dbr:South_America .
+
+dbr:British_Indian_Ocean_Territory a dbo:Country ;
+    rdfs:label "British_Indian_Ocean_Territory" ;
+    dbo:continent dbr:North_America .
+
+dbr:Brunei_Darussalam a dbo:Country ;
+    rdfs:label "Brunei_Darussalam" ;
+    dbo:continent dbr:Asia .
+
+dbr:Bulgaria a dbo:Country ;
+    rdfs:label "Bulgaria" ;
+    dbo:continent dbr:Europe .
+
+dbr:Burkina_Faso a dbo:Country ;
+    rdfs:label "Burkina_Faso" ;
+    dbo:continent dbr:Africa .
+
+dbr:Burundi a dbo:Country ;
+    rdfs:label "Burundi" ;
+    dbo:continent dbr:Africa .
+
+dbr:Cabo_Verde a dbo:Country ;
+    rdfs:label "Cabo_Verde" ;
+    dbo:continent dbr:Africa .
+
+dbr:Cambodia a dbo:Country ;
+    rdfs:label "Cambodia" ;
+    dbo:continent dbr:Asia .
+
+dbr:Cameroon a dbo:Country ;
+    rdfs:label "Cameroon" ;
+    dbo:continent dbr:Africa .
+
+dbr:Canada a dbo:Country ;
+    rdfs:label "Canada" ;
+    dbo:continent dbr:North_America .
+
+dbr:Cayman_Islands a dbo:Country ;
+    rdfs:label "Cayman_Islands" ;
+    dbo:continent dbr:North_America .
+
+dbr:Central_African_Republic a dbo:Country ;
+    rdfs:label "Central_African_Republic" ;
+    dbo:continent dbr:Africa .
+
+dbr:Chad a dbo:Country ;
+    rdfs:label "Chad" ;
+    dbo:continent dbr:Africa .
+
+dbr:China a dbo:Country ;
+    rdfs:label "China" ;
+    dbo:continent dbr:Asia .
+
+dbr:Christmas_Island a dbo:Country ;
+    rdfs:label "Christmas_Island" ;
+    dbo:continent dbr:Oceania .
+
+dbr:Cocos_Keeling_Islands a dbo:Country ;
+    rdfs:label "Cocos_Keeling_Islands" ;
+    dbo:continent dbr:Oceania .
+
+dbr:Comoros a dbo:Country ;
+    rdfs:label "Comoros" ;
+    dbo:continent dbr:Africa .
+
+dbr:Congo a dbo:Country ;
+    rdfs:label "Congo" ;
+    dbo:continent dbr:Africa .
+
+dbr:Congo_The_Democratic_Republic_Of_The a dbo:Country ;
+    rdfs:label "Congo_The_Democratic_Republic_Of_The" ;
+    dbo:continent dbr:Africa .
+
+dbr:Cook_Islands a dbo:Country ;
+    rdfs:label "Cook_Islands" ;
+    dbo:continent dbr:Oceania .
+
+dbr:Costa_Rica a dbo:Country ;
+    rdfs:label "Costa_Rica" ;
+    dbo:continent dbr:North_America .
+
+dbr:Croatia a dbo:Country ;
+    rdfs:label "Croatia" ;
+    dbo:continent dbr:Europe .
+
+dbr:Cuba a dbo:Country ;
+    rdfs:label "Cuba" ;
+    dbo:continent dbr:North_America .
+
+dbr:CuraçAo a dbo:Country ;
+    rdfs:label "CuraçAo" .
+
+dbr:Cyprus a dbo:Country ;
+    rdfs:label "Cyprus" ;
+    dbo:continent dbr:Europe .
+
+dbr:Czechia a dbo:Country ;
+    rdfs:label "Czechia" ;
+    dbo:continent dbr:Europe .
+
+dbr:CôTe_DIvoire a dbo:Country ;
+    rdfs:label "CôTe_DIvoire" ;
+    dbo:continent dbr:Africa .
+
+dbr:Denmark a dbo:Country ;
+    rdfs:label "Denmark" ;
+    dbo:continent dbr:Europe .
+
+dbr:Djibouti a dbo:Country ;
+    rdfs:label "Djibouti" ;
+    dbo:continent dbr:Africa .
+
+dbr:Dominica a dbo:Country ;
+    rdfs:label "Dominica" ;
+    dbo:continent dbr:North_America .
+
+dbr:Dominican_Republic a dbo:Country ;
+    rdfs:label "Dominican_Republic" ;
+    dbo:continent dbr:North_America .
+
+dbr:Ecuador a dbo:Country ;
+    rdfs:label "Ecuador" ;
+    dbo:continent dbr:North_America .
+
+dbr:Egypt a dbo:Country ;
+    rdfs:label "Egypt" ;
+    dbo:continent dbr:Africa .
+
+dbr:Equatorial_Guinea a dbo:Country ;
+    rdfs:label "Equatorial_Guinea" ;
+    dbo:continent dbr:Africa .
+
+dbr:Eritrea a dbo:Country ;
+    rdfs:label "Eritrea" ;
+    dbo:continent dbr:Africa .
+
+dbr:Estonia a dbo:Country ;
+    rdfs:label "Estonia" ;
+    dbo:continent dbr:Europe .
+
+dbr:Eswatini a dbo:Country ;
+    rdfs:label "Eswatini" ;
+    dbo:continent dbr:Africa .
+
+dbr:Ethiopia a dbo:Country ;
+    rdfs:label "Ethiopia" ;
+    dbo:continent dbr:Africa .
+
+dbr:European_Union a dbo:Country ;
+    rdfs:label "European_Union" ;
+    dbo:continent dbr:Europe .
+
+dbr:Falkland_Islands a dbo:Country ;
+    rdfs:label "Falkland_Islands" ;
+    dbo:continent dbr:South_America .
+
+dbr:Faroe_Islands a dbo:Country ;
+    rdfs:label "Faroe_Islands" ;
+    dbo:continent dbr:Europe .
+
+dbr:Fiji a dbo:Country ;
+    rdfs:label "Fiji" ;
+    dbo:continent dbr:Oceania .
+
+dbr:Finland a dbo:Country ;
+    rdfs:label "Finland" ;
+    dbo:continent dbr:Europe .
+
+dbr:France a dbo:Country ;
+    rdfs:label "France" ;
+    dbo:continent dbr:Europe .
+
+dbr:French_Guiana a dbo:Country ;
+    rdfs:label "French_Guiana" ;
+    dbo:continent dbr:Europe .
+
+dbr:French_Polynesia a dbo:Country ;
+    rdfs:label "French_Polynesia" ;
+    dbo:continent dbr:Oceania .
+
+dbr:French_Southern_Territories a dbo:Country ;
+    rdfs:label "French_Southern_Territories" ;
+    dbo:continent dbr:Europe .
+
+dbr:Gabon a dbo:Country ;
+    rdfs:label "Gabon" ;
+    dbo:continent dbr:Africa .
+
+dbr:Gambia a dbo:Country ;
+    rdfs:label "Gambia" ;
+    dbo:continent dbr:Africa .
+
+dbr:Georgia a dbo:Country ;
+    rdfs:label "Georgia" ;
+    dbo:continent dbr:Asia .
+
+dbr:Germany a dbo:Country ;
+    rdfs:label "Germany" ;
+    dbo:continent dbr:Europe .
+
+dbr:Ghana a dbo:Country ;
+    rdfs:label "Ghana" ;
+    dbo:continent dbr:Africa .
+
+dbr:Gibraltar a dbo:Country ;
+    rdfs:label "Gibraltar" ;
+    dbo:continent dbr:Europe .
+
+dbr:Greece a dbo:Country ;
+    rdfs:label "Greece" ;
+    dbo:continent dbr:Europe .
+
+dbr:Greenland a dbo:Country ;
+    rdfs:label "Greenland" ;
+    dbo:continent dbr:Europe .
+
+dbr:Grenada a dbo:Country ;
+    rdfs:label "Grenada" ;
+    dbo:continent dbr:North_America .
+
+dbr:Guadeloupe a dbo:Country ;
+    rdfs:label "Guadeloupe" ;
+    dbo:continent dbr:Europe .
+
+dbr:Guam a dbo:Country ;
+    rdfs:label "Guam" ;
+    dbo:continent dbr:North_America .
+
+dbr:Guatemala a dbo:Country ;
+    rdfs:label "Guatemala" ;
+    dbo:continent dbr:North_America .
+
+dbr:Guernsey a dbo:Country ;
+    rdfs:label "Guernsey" ;
+    dbo:continent dbr:Europe .
+
+dbr:Guinea a dbo:Country ;
+    rdfs:label "Guinea" ;
+    dbo:continent dbr:Africa .
+
+dbr:Guinea-Bissau a dbo:Country ;
+    rdfs:label "Guinea-Bissau" ;
+    dbo:continent dbr:Africa .
+
+dbr:Guyana a dbo:Country ;
+    rdfs:label "Guyana" ;
+    dbo:continent dbr:South_America .
+
+dbr:Heard_Island_And_Mcdonald_Islands a dbo:Country ;
+    rdfs:label "Heard_Island_And_Mcdonald_Islands" ;
+    dbo:continent dbr:Oceania .
+
+dbr:Holy_See a dbo:Country ;
+    rdfs:label "Holy_See" ;
+    dbo:continent dbr:Europe .
+
+dbr:Honduras a dbo:Country ;
+    rdfs:label "Honduras" ;
+    dbo:continent dbr:North_America .
+
+dbr:Hong_Kong a dbo:Country ;
+    rdfs:label "Hong_Kong" ;
+    dbo:continent dbr:Asia .
+
+dbr:Hungary a dbo:Country ;
+    rdfs:label "Hungary" ;
+    dbo:continent dbr:Europe .
+
+dbr:Iceland a dbo:Country ;
+    rdfs:label "Iceland" ;
+    dbo:continent dbr:Europe .
+
+dbr:India a dbo:Country ;
+    rdfs:label "India" ;
+    dbo:continent dbr:Asia .
+
+dbr:Indonesia a dbo:Country ;
+    rdfs:label "Indonesia" ;
+    dbo:continent dbr:Asia .
+
+dbr:International_Monetary_Fund a dbo:Country ;
+    rdfs:label "International_Monetary_Fund" .
+
+dbr:Iran_Islamic_Republic_Of a dbo:Country ;
+    rdfs:label "Iran_Islamic_Republic_Of" ;
+    dbo:continent dbr:Asia .
+
+dbr:Iraq a dbo:Country ;
+    rdfs:label "Iraq" ;
+    dbo:continent dbr:Asia .
+
+dbr:Ireland a dbo:Country ;
+    rdfs:label "Ireland" ;
+    dbo:continent dbr:Europe .
+
+dbr:Isle_Of_Man a dbo:Country ;
+    rdfs:label "Isle_Of_Man" ;
+    dbo:continent dbr:Europe .
+
+dbr:Israel a dbo:Country ;
+    rdfs:label "Israel" ;
+    dbo:continent dbr:Asia .
+
+dbr:Italy a dbo:Country ;
+    rdfs:label "Italy" ;
+    dbo:continent dbr:Europe .
+
+dbr:Jamaica a dbo:Country ;
+    rdfs:label "Jamaica" ;
+    dbo:continent dbr:North_America .
+
+dbr:Japan a dbo:Country ;
+    rdfs:label "Japan" ;
+    dbo:continent dbr:Asia .
+
+dbr:Jersey a dbo:Country ;
+    rdfs:label "Jersey" ;
+    dbo:continent dbr:Europe .
+
+dbr:Jordan a dbo:Country ;
+    rdfs:label "Jordan" ;
+    dbo:continent dbr:Asia .
+
+dbr:Kazakhstan a dbo:Country ;
+    rdfs:label "Kazakhstan" ;
+    dbo:continent dbr:Asia .
+
+dbr:Kenya a dbo:Country ;
+    rdfs:label "Kenya" ;
+    dbo:continent dbr:Africa .
+
+dbr:Kiribati a dbo:Country ;
+    rdfs:label "Kiribati" ;
+    dbo:continent dbr:Oceania .
+
+dbr:Korea_The_Democratic_People%E2%80%99S_Republic_Of a dbo:Country ;
+    rdfs:label "Korea_The_Democratic_People’S_Republic_Of" ;
+    dbo:continent dbr:Asia .
+
+dbr:Korea_The_Republic_Of a dbo:Country ;
+    rdfs:label "Korea_The_Republic_Of" ;
+    dbo:continent dbr:Asia .
+
+dbr:Kuwait a dbo:Country ;
+    rdfs:label "Kuwait" ;
+    dbo:continent dbr:Asia .
+
+dbr:Kyrgyzstan a dbo:Country ;
+    rdfs:label "Kyrgyzstan" ;
+    dbo:continent dbr:Asia .
+
+dbr:Lao_People%E2%80%99S_Democratic_Republic a dbo:Country ;
+    rdfs:label "Lao_People’S_Democratic_Republic" ;
+    dbo:continent dbr:Asia .
+
+dbr:Latvia a dbo:Country ;
+    rdfs:label "Latvia" ;
+    dbo:continent dbr:Europe .
+
+dbr:Lebanon a dbo:Country ;
+    rdfs:label "Lebanon" ;
+    dbo:continent dbr:Asia .
+
+dbr:Liberia a dbo:Country ;
+    rdfs:label "Liberia" ;
+    dbo:continent dbr:Africa .
+
+dbr:Libya a dbo:Country ;
+    rdfs:label "Libya" ;
+    dbo:continent dbr:Africa .
+
+dbr:Liechtenstein a dbo:Country ;
+    rdfs:label "Liechtenstein" ;
+    dbo:continent dbr:Europe .
+
+dbr:Lithuania a dbo:Country ;
+    rdfs:label "Lithuania" ;
+    dbo:continent dbr:Europe .
+
+dbr:Luxembourg a dbo:Country ;
+    rdfs:label "Luxembourg" ;
+    dbo:continent dbr:Europe .
+
+dbr:Macao a dbo:Country ;
+    rdfs:label "Macao" ;
+    dbo:continent dbr:Asia .
+
+dbr:Madagascar a dbo:Country ;
+    rdfs:label "Madagascar" ;
+    dbo:continent dbr:Africa .
+
+dbr:Malawi a dbo:Country ;
+    rdfs:label "Malawi" ;
+    dbo:continent dbr:Africa .
+
+dbr:Malaysia a dbo:Country ;
+    rdfs:label "Malaysia" ;
+    dbo:continent dbr:Asia .
+
+dbr:Maldives a dbo:Country ;
+    rdfs:label "Maldives" ;
+    dbo:continent dbr:Asia .
+
+dbr:Mali a dbo:Country ;
+    rdfs:label "Mali" ;
+    dbo:continent dbr:Africa .
+
+dbr:Malta a dbo:Country ;
+    rdfs:label "Malta" ;
+    dbo:continent dbr:Europe .
+
+dbr:Marshall_Islands a dbo:Country ;
+    rdfs:label "Marshall_Islands" ;
+    dbo:continent dbr:North_America .
+
+dbr:Martinique a dbo:Country ;
+    rdfs:label "Martinique" ;
+    dbo:continent dbr:Europe .
+
+dbr:Mauritania a dbo:Country ;
+    rdfs:label "Mauritania" ;
+    dbo:continent dbr:Africa .
+
+dbr:Mauritius a dbo:Country ;
+    rdfs:label "Mauritius" ;
+    dbo:continent dbr:Africa .
+
+dbr:Mayotte a dbo:Country ;
+    rdfs:label "Mayotte" ;
+    dbo:continent dbr:Europe .
+
+dbr:Member_Countries_Of_The_African_Development_Bank_Group a dbo:Country ;
+    rdfs:label "Member_Countries_Of_The_African_Development_Bank_Group" .
+
+dbr:Micronesia_Federated_States_Of a dbo:Country ;
+    rdfs:label "Micronesia_Federated_States_Of" ;
+    dbo:continent dbr:North_America .
+
+dbr:Moldova_The_Republic_Of a dbo:Country ;
+    rdfs:label "Moldova_The_Republic_Of" ;
+    dbo:continent dbr:Europe .
+
+dbr:Monaco a dbo:Country ;
+    rdfs:label "Monaco" ;
+    dbo:continent dbr:Europe .
+
+dbr:Mongolia a dbo:Country ;
+    rdfs:label "Mongolia" ;
+    dbo:continent dbr:Asia .
+
+dbr:Montenegro a dbo:Country ;
+    rdfs:label "Montenegro" ;
+    dbo:continent dbr:Europe .
+
+dbr:Montserrat a dbo:Country ;
+    rdfs:label "Montserrat" ;
+    dbo:continent dbr:North_America .
+
+dbr:Morocco a dbo:Country ;
+    rdfs:label "Morocco" ;
+    dbo:continent dbr:Africa .
+
+dbr:Mozambique a dbo:Country ;
+    rdfs:label "Mozambique" ;
+    dbo:continent dbr:Africa .
+
+dbr:Myanmar a dbo:Country ;
+    rdfs:label "Myanmar" ;
+    dbo:continent dbr:Asia .
+
+dbr:Nauru a dbo:Country ;
+    rdfs:label "Nauru" ;
+    dbo:continent dbr:Oceania .
+
+dbr:Nepal a dbo:Country ;
+    rdfs:label "Nepal" ;
+    dbo:continent dbr:Asia .
+
+dbr:Netherlands a dbo:Country ;
+    rdfs:label "Netherlands" ;
+    dbo:continent dbr:Europe .
+
+dbr:New_Caledonia a dbo:Country ;
+    rdfs:label "New_Caledonia" ;
+    dbo:continent dbr:Oceania .
+
+dbr:New_Zealand a dbo:Country ;
+    rdfs:label "New_Zealand" ;
+    dbo:continent dbr:Oceania .
+
+dbr:Nicaragua a dbo:Country ;
+    rdfs:label "Nicaragua" ;
+    dbo:continent dbr:North_America .
+
+dbr:Niger a dbo:Country ;
+    rdfs:label "Niger" ;
+    dbo:continent dbr:Africa .
+
+dbr:Nigeria a dbo:Country ;
+    rdfs:label "Nigeria" ;
+    dbo:continent dbr:Africa .
+
+dbr:Niue a dbo:Country ;
+    rdfs:label "Niue" ;
+    dbo:continent dbr:Oceania .
+
+dbr:Norfolk_Island a dbo:Country ;
+    rdfs:label "Norfolk_Island" ;
+    dbo:continent dbr:Oceania .
+
+dbr:North_Macedonia a dbo:Country ;
+    rdfs:label "North_Macedonia" ;
+    dbo:continent dbr:Europe .
+
+dbr:Northern_Mariana_Islands a dbo:Country ;
+    rdfs:label "Northern_Mariana_Islands" ;
+    dbo:continent dbr:North_America .
+
+dbr:Norway a dbo:Country ;
+    rdfs:label "Norway" ;
+    dbo:continent dbr:Europe .
+
+dbr:Oman a dbo:Country ;
+    rdfs:label "Oman" ;
+    dbo:continent dbr:Asia .
+
+dbr:Pakistan a dbo:Country ;
+    rdfs:label "Pakistan" ;
+    dbo:continent dbr:Asia .
+
+dbr:Palau a dbo:Country ;
+    rdfs:label "Palau" ;
+    dbo:continent dbr:North_America .
+
+dbr:Papua_New_Guinea a dbo:Country ;
+    rdfs:label "Papua_New_Guinea" ;
+    dbo:continent dbr:Oceania .
+
+dbr:Paraguay a dbo:Country ;
+    rdfs:label "Paraguay" ;
+    dbo:continent dbr:South_America .
+
+dbr:Peru a dbo:Country ;
+    rdfs:label "Peru" ;
+    dbo:continent dbr:South_America .
+
+dbr:Philippines a dbo:Country ;
+    rdfs:label "Philippines" ;
+    dbo:continent dbr:Asia .
+
+dbr:Pitcairn a dbo:Country ;
+    rdfs:label "Pitcairn" ;
+    dbo:continent dbr:Oceania .
+
+dbr:Poland a dbo:Country ;
+    rdfs:label "Poland" ;
+    dbo:continent dbr:Europe .
+
+dbr:Portugal a dbo:Country ;
+    rdfs:label "Portugal" ;
+    dbo:continent dbr:Europe .
+
+dbr:Puerto_Rico a dbo:Country ;
+    rdfs:label "Puerto_Rico" ;
+    dbo:continent dbr:North_America .
+
+dbr:Qatar a dbo:Country ;
+    rdfs:label "Qatar" ;
+    dbo:continent dbr:Asia .
+
+dbr:Romania a dbo:Country ;
+    rdfs:label "Romania" ;
+    dbo:continent dbr:Europe .
+
+dbr:Russian_Federation a dbo:Country ;
+    rdfs:label "Russian_Federation" ;
+    dbo:continent dbr:Europe .
+
+dbr:Rwanda a dbo:Country ;
+    rdfs:label "Rwanda" ;
+    dbo:continent dbr:Africa .
+
+dbr:RéUnion a dbo:Country ;
+    rdfs:label "RéUnion" ;
+    dbo:continent dbr:Europe .
+
+dbr:SUCRE a dbo:Country ;
+    rdfs:label "SUCRE" .
+
+dbr:Saint_BarthéLemy a dbo:Country ;
+    rdfs:label "Saint_BarthéLemy" ;
+    dbo:continent dbr:Europe .
+
+dbr:Saint_Helena_Ascension_And_Tristan_Da_Cunha a dbo:Country ;
+    rdfs:label "Saint_Helena,_Ascension_And_Tristan_Da_Cunha" ;
+    dbo:continent dbr:Africa .
+
+dbr:Saint_Kitts_And_Nevis a dbo:Country ;
+    rdfs:label "Saint_Kitts_And_Nevis" ;
+    dbo:continent dbr:North_America .
+
+dbr:Saint_Lucia a dbo:Country ;
+    rdfs:label "Saint_Lucia" ;
+    dbo:continent dbr:North_America .
+
+dbr:Saint_Martin_French_Part a dbo:Country ;
+    rdfs:label "Saint_Martin_French_Part" ;
+    dbo:continent dbr:Europe .
+
+dbr:Saint_Pierre_And_Miquelon a dbo:Country ;
+    rdfs:label "Saint_Pierre_And_Miquelon" ;
+    dbo:continent dbr:Europe .
+
+dbr:Saint_Vincent_And_The_Grenadines a dbo:Country ;
+    rdfs:label "Saint_Vincent_And_The_Grenadines" ;
+    dbo:continent dbr:North_America .
+
+dbr:Samoa a dbo:Country ;
+    rdfs:label "Samoa" ;
+    dbo:continent dbr:Oceania .
+
+dbr:San_Marino a dbo:Country ;
+    rdfs:label "San_Marino" ;
+    dbo:continent dbr:Europe .
+
+dbr:Sao_Tome_And_Principe a dbo:Country ;
+    rdfs:label "Sao_Tome_And_Principe" ;
+    dbo:continent dbr:Africa .
+
+dbr:Saudi_Arabia a dbo:Country ;
+    rdfs:label "Saudi_Arabia" ;
+    dbo:continent dbr:Asia .
+
+dbr:Senegal a dbo:Country ;
+    rdfs:label "Senegal" ;
+    dbo:continent dbr:Africa .
+
+dbr:Serbia a dbo:Country ;
+    rdfs:label "Serbia" ;
+    dbo:continent dbr:Europe .
+
+dbr:Seychelles a dbo:Country ;
+    rdfs:label "Seychelles" ;
+    dbo:continent dbr:Africa .
+
+dbr:Sierra_Leone a dbo:Country ;
+    rdfs:label "Sierra_Leone" ;
+    dbo:continent dbr:Africa .
+
+dbr:Singapore a dbo:Country ;
+    rdfs:label "Singapore" ;
+    dbo:continent dbr:Asia .
+
+dbr:Sint_Maarten_Dutch_Part a dbo:Country ;
+    rdfs:label "Sint_Maarten_Dutch_Part" .
+
+dbr:Slovakia a dbo:Country ;
+    rdfs:label "Slovakia" ;
+    dbo:continent dbr:Europe .
+
+dbr:Slovenia a dbo:Country ;
+    rdfs:label "Slovenia" ;
+    dbo:continent dbr:Europe .
+
+dbr:Solomon_Islands a dbo:Country ;
+    rdfs:label "Solomon_Islands" ;
+    dbo:continent dbr:Oceania .
+
+dbr:Somalia a dbo:Country ;
+    rdfs:label "Somalia" ;
+    dbo:continent dbr:Africa .
+
+dbr:South_Africa a dbo:Country ;
+    rdfs:label "South_Africa" ;
+    dbo:continent dbr:Africa .
+
+dbr:South_Sudan a dbo:Country ;
+    rdfs:label "South_Sudan" ;
+    dbo:continent dbr:Africa .
+
+dbr:Spain a dbo:Country ;
+    rdfs:label "Spain" ;
+    dbo:continent dbr:Europe .
+
+dbr:Sri_Lanka a dbo:Country ;
+    rdfs:label "Sri_Lanka" ;
+    dbo:continent dbr:Asia .
+
+dbr:Sudan a dbo:Country ;
+    rdfs:label "Sudan" ;
+    dbo:continent dbr:Africa .
+
+dbr:Suriname a dbo:Country ;
+    rdfs:label "Suriname" ;
+    dbo:continent dbr:South_America .
+
+dbr:Svalbard_And_Jan_Mayen a dbo:Country ;
+    rdfs:label "Svalbard_And_Jan_Mayen" ;
+    dbo:continent dbr:Europe .
+
+dbr:Sweden a dbo:Country ;
+    rdfs:label "Sweden" ;
+    dbo:continent dbr:Europe .
+
+dbr:Syrian_Arab_Republic a dbo:Country ;
+    rdfs:label "Syrian_Arab_Republic" ;
+    dbo:continent dbr:Asia .
+
+dbr:Taiwan_Province_Of_China a dbo:Country ;
+    rdfs:label "Taiwan_Province_Of_China" ;
+    dbo:continent dbr:Asia .
+
+dbr:Tajikistan a dbo:Country ;
+    rdfs:label "Tajikistan" ;
+    dbo:continent dbr:Asia .
+
+dbr:Tanzania_United_Republic_Of a dbo:Country ;
+    rdfs:label "Tanzania,_United_Republic_Of" ;
+    dbo:continent dbr:Africa .
+
+dbr:Thailand a dbo:Country ;
+    rdfs:label "Thailand" ;
+    dbo:continent dbr:Asia .
+
+dbr:Timor-Leste a dbo:Country ;
+    rdfs:label "Timor-Leste" ;
+    dbo:continent dbr:North_America .
+
+dbr:Togo a dbo:Country ;
+    rdfs:label "Togo" ;
+    dbo:continent dbr:Africa .
+
+dbr:Tokelau a dbo:Country ;
+    rdfs:label "Tokelau" ;
+    dbo:continent dbr:Oceania .
+
+dbr:Tonga a dbo:Country ;
+    rdfs:label "Tonga" ;
+    dbo:continent dbr:Oceania .
+
+dbr:Trinidad_And_Tobago a dbo:Country ;
+    rdfs:label "Trinidad_And_Tobago" ;
+    dbo:continent dbr:North_America .
+
+dbr:Tunisia a dbo:Country ;
+    rdfs:label "Tunisia" ;
+    dbo:continent dbr:Africa .
+
+dbr:Turkmenistan a dbo:Country ;
+    rdfs:label "Turkmenistan" ;
+    dbo:continent dbr:Asia .
+
+dbr:Turks_And_Caicos_Islands a dbo:Country ;
+    rdfs:label "Turks_And_Caicos_Islands" ;
+    dbo:continent dbr:North_America .
+
+dbr:Tuvalu a dbo:Country ;
+    rdfs:label "Tuvalu" ;
+    dbo:continent dbr:Oceania .
+
+dbr:TüRki̇Ye a dbo:Country ;
+    rdfs:label "TüRki̇Ye" ;
+    dbo:continent dbr:Asia .
+
+dbr:Uganda a dbo:Country ;
+    rdfs:label "Uganda" ;
+    dbo:continent dbr:Africa .
+
+dbr:Ukraine a dbo:Country ;
+    rdfs:label "Ukraine" ;
+    dbo:continent dbr:Europe .
+
+dbr:United_Arab_Emirates a dbo:Country ;
+    rdfs:label "United_Arab_Emirates" ;
+    dbo:continent dbr:Asia .
+
+dbr:United_Kingdom_Of_Great_Britain_And_Northern_Ireland a dbo:Country ;
+    rdfs:label "United_Kingdom_Of_Great_Britain_And_Northern_Ireland" ;
+    dbo:continent dbr:Europe .
+
+dbr:United_States_Minor_Outlying_Islands a dbo:Country ;
+    rdfs:label "United_States_Minor_Outlying_Islands" ;
+    dbo:continent dbr:North_America .
+
+dbr:Uzbekistan a dbo:Country ;
+    rdfs:label "Uzbekistan" ;
+    dbo:continent dbr:Asia .
+
+dbr:Vanuatu a dbo:Country ;
+    rdfs:label "Vanuatu" ;
+    dbo:continent dbr:Oceania .
+
+dbr:Viet_Nam a dbo:Country ;
+    rdfs:label "Viet_Nam" ;
+    dbo:continent dbr:Asia .
+
+dbr:Virgin_Islands a dbo:Country ;
+    rdfs:label "Virgin_Islands" ;
+    dbo:continent dbr:North_America .
+
+<http://dbpedia.org/resource/Virgin_Islands_U.S.> a dbo:Country ;
+    rdfs:label "Virgin_Islands_U.S." ;
+    dbo:continent dbr:North_America .
+
+dbr:Wallis_And_Futuna a dbo:Country ;
+    rdfs:label "Wallis_And_Futuna" ;
+    dbo:continent dbr:Oceania .
+
+dbr:Western_Sahara a dbo:Country ;
+    rdfs:label "Western_Sahara" ;
+    dbo:continent dbr:Africa .
+
+dbr:Yemen a dbo:Country ;
+    rdfs:label "Yemen" ;
+    dbo:continent dbr:Asia .
+
+dbr:Zambia a dbo:Country ;
+    rdfs:label "Zambia" ;
+    dbo:continent dbr:Africa .
+
+dbr:Zimbabwe a dbo:Country ;
+    rdfs:label "Zimbabwe" ;
+    dbo:continent dbr:Africa .
+
+dbr:Zz01_bond_Markets_Unit_European_eurco a dbo:Country ;
+    rdfs:label "Zz01_bond_Markets_Unit_European_eurco" .
+
+dbr:Zz02_bond_Markets_Unit_European_emu-6 a dbo:Country ;
+    rdfs:label "Zz02_bond_Markets_Unit_European_emu-6" .
+
+dbr:Zz03_bond_Markets_Unit_European_eua-9 a dbo:Country ;
+    rdfs:label "Zz03_bond_Markets_Unit_European_eua-9" .
+
+dbr:Zz04_bond_Markets_Unit_European_eua-17 a dbo:Country ;
+    rdfs:label "Zz04_bond_Markets_Unit_European_eua-17" .
+
+dbr:Zz08_gold a dbo:Country ;
+    rdfs:label "Zz08_gold" .
+
+dbr:Zz09_palladium a dbo:Country ;
+    rdfs:label "Zz09_palladium" .
+
+dbr:Zz10_platinum a dbo:Country ;
+    rdfs:label "Zz10_platinum" .
+
+dbr:Zz11_silver a dbo:Country ;
+    rdfs:label "Zz11_silver" .
+
+dbr:åLand_Islands a dbo:Country ;
+    rdfs:label "åLand_Islands" ;
+    dbo:continent dbr:Europe .
+
+dbr:Bhutan a dbo:Country ;
+    rdfs:label "Bhutan" ;
+    dbo:continent dbr:Asia .
+
+dbr:Bolivia_Plurinational_State_Of a dbo:Country ;
+    rdfs:label "Bolivia_Plurinational_State_Of" ;
+    dbo:continent dbr:South_America .
+
+dbr:Chile a dbo:Country ;
+    rdfs:label "Chile" ;
+    dbo:continent dbr:South_America .
+
+dbr:Colombia a dbo:Country ;
+    rdfs:label "Colombia" ;
+    dbo:continent dbr:South_America .
+
+dbr:El_Salvador a dbo:Country ;
+    rdfs:label "El_Salvador" ;
+    dbo:continent dbr:North_America .
+
+dbr:Haiti a dbo:Country ;
+    rdfs:label "Haiti" ;
+    dbo:continent dbr:North_America .
+
+dbr:Lesotho a dbo:Country ;
+    rdfs:label "Lesotho" ;
+    dbo:continent dbr:Africa .
+
+dbr:Mexico a dbo:Country ;
+    rdfs:label "Mexico" ;
+    dbo:continent dbr:North_America .
+
+dbr:Namibia a dbo:Country ;
+    rdfs:label "Namibia" ;
+    dbo:continent dbr:Africa .
+
+dbr:Panama a dbo:Country ;
+    rdfs:label "Panama" ;
+    dbo:continent dbr:North_America .
+
+dbr:United_States_Of_America a dbo:Country ;
+    rdfs:label "United_States_Of_America" ;
+    dbo:continent dbr:North_America .
+
+dbr:Venezuela_Bolivarian_Republic_Of a dbo:Country ;
+    rdfs:label "Venezuela_Bolivarian_Republic_Of" ;
+    dbo:continent dbr:South_America .
+
+dbr:Switzerland a dbo:Country ;
+    rdfs:label "Switzerland" ;
+    dbo:continent dbr:Europe .
+
+dbr:Uruguay a dbo:Country ;
+    rdfs:label "Uruguay" ;
+    dbo:continent dbr:South_America .
+
+dbr:South_America a dbo:Continent ;
+    rdfs:label "South America" .
+
+dbr:Oceania a dbo:Continent ;
+    rdfs:label "Oceania" .
+
+dbr:North_America a dbo:Continent ;
+    rdfs:label "North America" .
+
+dbr:Asia a dbo:Continent ;
+    rdfs:label "Asia" .
+
+dbr:Africa a dbo:Continent ;
+    rdfs:label "Africa" .
+
+dbr:Europe a dbo:Continent ;
+    rdfs:label "Europe" .
+

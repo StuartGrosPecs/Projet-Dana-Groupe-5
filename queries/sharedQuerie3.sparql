@@ -1,0 +1,38 @@
+PREFIX rdf:   <http://www.w3.org/1999/02/22-rdf-syntax-ns#>
+PREFIX rdfs:  <http://www.w3.org/2000/01/rdf-schema#>
+PREFIX dbo:   <http://dbpedia.org/ontology/>
+PREFIX ex:    <http://example.com/>
+PREFIX foaf:  <http://xmlns.com/foaf/0.1/>
+PREFIX xsd:   <http://www.w3.org/2001/XMLSchema#>
+PREFIX exont: <http://example.org/ontology/> 
+PREFIX schema1: <http://schema.org/>
+
+SELECT ?currencyCode ?currencyLabel ((ROUND(SUM(?mv)*100)/100) AS ?totalMarketValue)
+WHERE {
+  SERVICE <http://localhost:3030/players/query> {
+    ?player rdf:type      ex:Player ;
+            dbo:nationality ?country ;
+            ex:marketValue ?marketValue .
+
+    ?country foaf:name ?countryName .
+
+    BIND(xsd:double(?marketValue) AS ?mv)
+  }
+  SERVICE <http://localhost:3030/currencies/query> {
+    ?currency rdf:type       dbo:Currency ;
+              dbo:usedInCountry ?dbpCountry ;
+              dbo:isoCode    ?currencyCode ;
+              rdfs:label     ?currencyLabel ; 
+            	dbo:authority ?auth ;
+            exont:minorUnit ?mu ;
+            schema1:currencySymbol ?sym .
+    
+    ?dbpCountry rdf:type dbo:Country ;
+                rdfs:label ?dbpCountryName .
+        FILTER( lang(?currencyLabel) = "" )
+  }
+  FILTER( STR(?countryName) = STR(?dbpCountryName) )
+}
+GROUP BY ?currencyCode ?currencyLabel
+ORDER BY DESC(?totalMarketValue)
+LIMIT 10
