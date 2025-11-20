@@ -1,5 +1,5 @@
 # Projet Dana – Les footballeurs les plus chers de 2021  
-
+## WorkFlow 
 ### 1. Description
 Dans le cadre du projet Dana, nous avons choisi d’exploiter un dataset portant sur les joueurs de football les plus chers en 2021.
 Ce dataset, disponible sur Kaggle, recense plus de 500 joueurs avec leurs caractéristiques personnelles, leur valeur marchande, 
@@ -167,7 +167,7 @@ LIMIT 10
 ### exemples des requêtes SPARQL partagées : 
 
 #### Requête 3 : Top 10 des pays selon le ratio Valeur Marchande Totale / Population
-Groupe 6: World Population
+Avec groupe 6: World Population
 
 
 ```
@@ -208,7 +208,7 @@ ORDER BY DESC(?ratio)
 LIMIT 10
 ```
 #### Requête 4 : Footballeurs des JO 2024 présents dans notre dataset
- Groupe 8: Athlètes des JO 24
+ Avec groupe 8: Athlètes des JO 24
 
 ```
 PREFIX dbr: <http://dbpedia.org/resource/>
@@ -256,7 +256,7 @@ ORDER BY ?athleteName
 
 ```
 #### Requête 5 : Correspondance pays–monnaie, total des market values par devise
-Groupe 12: Les monnaies dans le monde
+Avec groupe 12: Les monnaies dans le monde
 ```
 PREFIX rdf:   <http://www.w3.org/1999/02/22-rdf-syntax-ns#>
 PREFIX rdfs:  <http://www.w3.org/2000/01/rdf-schema#>
